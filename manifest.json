@@ -1,0 +1,37 @@
+{
+  "name": "Denise Knit ArtWorks",
+  "short_name": "DKA",
+  "description": "Hand-knit wool from Denise Gillioz's Glarus atelier — socks, shawls, ponchos, caftans inspired by alpine seasons.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "lang": "en",
+  "background_color": "#1a1612",
+  "theme_color": "#1a1612",
+  "categories": ["lifestyle", "shopping", "art"],
+  "icons": [
+    {
+      "src": "img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/deniseknitartworks-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/deniseknitartworks-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    { "name": "Gallery", "url": "/?p=2", "description": "Browse the full collection" },
+    { "name": "Atelier", "url": "/?p=30", "description": "Step inside the studio" },
+    { "name": "Journal", "url": "/?p=4", "description": "Read the studio journal" },
+    { "name": "Contact", "url": "/?p=5", "description": "Reach out to Denise" }
+  ]
+}

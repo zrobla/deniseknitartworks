@@ -160,7 +160,7 @@ var translations = {
     "article_next": "Next article &#8594;",
     "article_previous": "&#8592; Previous article",
     "footer_copy": "Copyright 2025 Denise Knit ArtWorks Limited. All rights reserved.",
-    "footer_credit": "Designed by <a rel=\"sponsored\" href=\"https://zrobla.github.io/tech-and-web\" target=\"_blank\" class=\"tm-link-white\">Walid</a>",
+    "footer_credit": "Designed by <a rel=\"author external noopener\" href=\"https://tech-and-web.com\" target=\"_blank\" class=\"tm-link-white\" title=\"TECH &amp; WEB — full-service web agency, designer of this site\" itemprop=\"creator\" itemscope itemtype=\"https://schema.org/Organization\"><strong itemprop=\"name\">TECH &amp; WEB</strong><meta itemprop=\"url\" content=\"https://tech-and-web.com\" /></a>",
     "panorama_rotate_left": "Rotate Left",
     "panorama_rotate_right": "Rotate Right",
     "panorama_tilt_up": "Tilt Up",
@@ -551,7 +551,7 @@ var translations = {
     "article_next": "Article suivant &#8594;",
     "article_previous": "&#8592; Article précédent",
     "footer_copy": "© 2025 Denise Knit ArtWorks Limited. Tous droits réservés.",
-    "footer_credit": "Conception : <a rel=\"sponsored\" href=\"https://zrobla.github.io/tech-and-web\" target=\"_blank\" class=\"tm-link-white\">Walid</a>",
+    "footer_credit": "Conception : <a rel=\"author external noopener\" href=\"https://tech-and-web.com\" target=\"_blank\" class=\"tm-link-white\" title=\"TECH &amp; WEB — agence web full-service, conceptrice de ce site\" itemprop=\"creator\" itemscope itemtype=\"https://schema.org/Organization\"><strong itemprop=\"name\">TECH &amp; WEB</strong><meta itemprop=\"url\" content=\"https://tech-and-web.com\" /></a>",
     "panorama_rotate_left": "Pivoter gauche",
     "panorama_rotate_right": "Pivoter droite",
     "panorama_tilt_up": "Incliner haut",
@@ -942,7 +942,7 @@ var translations = {
     "article_next": "Nächster Artikel &#8594;",
     "article_previous": "&#8592; Vorheriger Artikel",
     "footer_copy": "© 2025 Denise Knit ArtWorks Limited. Alle Rechte vorbehalten.",
-    "footer_credit": "Design von <a rel=\"sponsored\" href=\"https://zrobla.github.io/tech-and-web\" target=\"_blank\" class=\"tm-link-white\">Walid</a>",
+    "footer_credit": "Design von <a rel=\"author external noopener\" href=\"https://tech-and-web.com\" target=\"_blank\" class=\"tm-link-white\" title=\"TECH &amp; WEB — Full-Service-Webagentur, Gestalterin dieser Seite\" itemprop=\"creator\" itemscope itemtype=\"https://schema.org/Organization\"><strong itemprop=\"name\">TECH &amp; WEB</strong><meta itemprop=\"url\" content=\"https://tech-and-web.com\" /></a>",
     "panorama_rotate_left": "Nach links drehen",
     "panorama_rotate_right": "Nach rechts drehen",
     "panorama_tilt_up": "Nach oben kippen",
@@ -1252,9 +1252,11 @@ function closeMenu() {
 
 function highlightMenu(no) {
   var menuNo = no;
-  if(no >= 6 && no <= 9) {
+  if(no === 30) {
+    menuNo = 30;
+  } else if(no >= 6 && no <= 9) {
     menuNo = 4;
-  } else if (no >= 10) {
+  } else if (no >= 10 && no <= 29) {
     menuNo = 2;
   }
   $(".navbar .navbar-nav > .nav-item").removeClass('selected');
