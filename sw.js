@@ -3,7 +3,7 @@
   Strategy: cache-first for static assets, network-first for HTML.
   Offline fallback: serves cached index.html.
 */
-const VERSION = 'dka-v27';
+const VERSION = 'dka-v28';
 const STATIC_CACHE = `${VERSION}-static`;
 const RUNTIME_CACHE = `${VERSION}-runtime`;
 
@@ -12,15 +12,15 @@ const STATIC_ASSETS = [
   '/index.html',
   '/css/bootstrap.min.css',
   '/css/slick.css',
-  '/css/deniseknitartworks-style.css',
-  '/css/deniseknitartworks-enhanced.css',
+  '/css/deniseknitnartworks-style.css',
+  '/css/deniseknitnartworks-enhanced.css',
   '/js/jquery-3.5.1.min.js',
   '/js/bootstrap.min.js',
   '/js/slick.js',
-  '/js/deniseknitartworks-script.js',
-  '/js/deniseknitartworks-enhanced.js',
+  '/js/deniseknitnartworks-script.js',
+  '/js/deniseknitnartworks-enhanced.js',
   '/img/favicon.svg',
-  '/img/logo-deniseknitartworks-bold.svg',
+  '/img/logo-deniseknitnartworks-bold.svg',
   '/manifest.json'
 ];
 

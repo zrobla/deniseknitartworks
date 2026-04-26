@@ -13,7 +13,7 @@
 
   // -----------------------------------------------------------
   // Translations supplement (FR/EN/DE) — extends the existing
-  // translations object loaded by deniseknitartworks-script.js
+  // translations object loaded by deniseknitnartworks-script.js
   // -----------------------------------------------------------
   var supplement = {
     en: {

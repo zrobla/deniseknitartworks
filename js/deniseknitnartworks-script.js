@@ -1,8 +1,8 @@
 /*
 
-DeniseKnitArtWorks 560 Astro Motion
+deniseknitnartworks 560 Astro Motion
 
-https://deniseknitartworks.com/tm-560-astro-motion
+https://deniseknitnartworks.com/tm-560-astro-motion
 
 */
 
@@ -71,7 +71,7 @@ var translations = {
     "contact_message_placeholder": "Message",
     "contact_send": "Send",
     "contact_intro": "Any reason to get in touch with me ? Let me know why and let see how we can make it. Cheers!",
-    "contact_email": "Email: <a href=\"mailto:contact@deniseknitartworks.ch\" class=\"tm-link-white\">contact@deniseknitartworks.ch</a>",
+    "contact_email": "Email: <a href=\"mailto:contact@deniseknitnartworks.ch\" class=\"tm-link-white\">contact@deniseknitnartworks.ch</a>",
     "contact_phone": "Tel: <a href=\"tel:0100200340\" class=\"tm-link-white\">010-020-0340</a>",
     "article1_tag": "Studio Journal",
     "article1_title": "Threads of Resilience",
@@ -462,7 +462,7 @@ var translations = {
     "contact_message_placeholder": "Message",
     "contact_send": "Envoyer",
     "contact_intro": "Une raison d'entrer en contact avec moi ? Dites m'en un peu plus et voyons comment rendre cela possible. Bien à vous !",
-    "contact_email": "E-mail : <a href=\"mailto:contact@deniseknitartworks.ch\" class=\"tm-link-white\">contact@deniseknitartworks.ch</a>",
+    "contact_email": "E-mail : <a href=\"mailto:contact@deniseknitnartworks.ch\" class=\"tm-link-white\">contact@deniseknitnartworks.ch</a>",
     "contact_phone": "Tél. : <a href=\"tel:0100200340\" class=\"tm-link-white\">010-020-0340</a>",
     "article1_tag": "Journal d&rsquo;atelier",
     "article1_title": "Fils de résilience",
@@ -853,7 +853,7 @@ var translations = {
     "contact_message_placeholder": "Nachricht",
     "contact_send": "Senden",
     "contact_intro": "Jeder Grund, mich zu kontaktieren? Sag mir doch kurz Bescheid und wir finden gemeinsam eine Lösung. Herzliche Grüße!",
-    "contact_email": "E-Mail: <a href=\"mailto:contact@deniseknitartworks.ch\" class=\"tm-link-white\">contact@deniseknitartworks.ch</a>",
+    "contact_email": "E-Mail: <a href=\"mailto:contact@deniseknitnartworks.ch\" class=\"tm-link-white\">contact@deniseknitnartworks.ch</a>",
     "contact_phone": "Tel.: <a href=\"tel:0100200340\" class=\"tm-link-white\">010-020-0340</a>",
     "article1_tag": "Atelierjournal",
     "article1_title": "Fäden der Resilienz",
