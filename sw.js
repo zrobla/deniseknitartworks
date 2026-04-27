@@ -3,7 +3,7 @@
   Strategy: cache-first for static assets, network-first for HTML.
   Offline fallback: serves cached index.html.
 */
-const VERSION = 'dka-v28';
+const VERSION = 'dka-v52';
 const STATIC_CACHE = `${VERSION}-static`;
 const RUNTIME_CACHE = `${VERSION}-runtime`;
 

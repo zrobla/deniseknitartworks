@@ -48,6 +48,92 @@
       slide3_cta_secondary: 'Write to Denise',
       slide3_signature: 'Glarus',
       slide3_signature_role: 'Switzerland · since 2017',
+      bio_breadcrumb: 'About Denise',
+      bio_eyebrow: 'The maker',
+      bio_name_first: 'Denise',
+      bio_name_last: 'Gillioz',
+      bio_kicker: 'atelier de Glaris',
+      bio_lede: 'Knitter by passion, storyteller by heart. Switzerland · since the spring of 2017.',
+      bio_manifesto: 'For thirty-eight years, I sat at administrative desks. I shuffled papers, kept ledgers, signed minutes. I did it well, and I did it gladly — but somewhere between the filing cabinets and the office windows, my hands had grown still. The day I retired, I cast on a pair of socks. I have not put the needles down since.',
+      bio_chap1_eyebrow: 'Chapter one',
+      bio_chap1_title: 'The retirement turn',
+      bio_chap1_p1: 'Retirement does not announce itself with fanfare. It arrives in a thank-you card and an empty Tuesday morning. For me, that morning was 14 March 2017. I made tea, opened the chalet shutters to a frost-bitten Tödi, and looked for something to hold.',
+      bio_chap1_p2: 'The needles came down from the attic — my mother’s, walnut, worn smooth by her own hands fifty years before. I cast on twenty stitches and did not look up until lunchtime. Something in me had been waiting for this quiet.',
+      bio_chap2_eyebrow: 'Chapter two',
+      bio_chap2_title: 'Meeting wool',
+      bio_chap2_p1: 'I had knitted before — scarves for my grandsons, a cardigan once for a funeral I will not name. But meeting wool in retirement is not the same as meeting it as a hurried Sunday hobby.',
+      bio_chap2_p2: 'I read; I listened to spinners; I drove to small farms in Linthal and Klöntal where women whose names I now whisper like prayers — Mira, Ruth, Heidi — taught me how merino fibres want to be held, why baby alpaca lies down and merino springs up, what kid mohair does to the light at six in the evening. The wool taught me patience. Patience taught me to design.',
+      bio_chap3_eyebrow: 'Chapter three',
+      bio_chap3_title: 'The atelier today',
+      bio_chap3_p1: 'My atelier sits in the converted attic of our chalet, north-facing, lit by snow on six months of the year. There is a wood stove that I tend like a third grandchild, a worktable my father built in 1972, a vintage swift rescued from a Basel flea market.',
+      bio_chap3_p2: 'I knit between six in the morning and six in the evening, with a chamomile pause at noon. I host a monthly knit circle at Gemeindehausplatz; newcomers receive tea, a pattern, and a hand-written welcome.',
+      bio_chap3_p3: 'I do not sell. I share. I post photographs because I love the alpine palette and want it to live somewhere besides my own eyes. This site is not a shop — it is an open atelier. Come in. Sit a while.',
+      bio_quote1: 'Each stitch is a small breath I take for the future.',
+      bio_quote2: 'Patience taught me to design.',
+      bio_quote3: 'I do not sell. I share.',
+      bio_quote_author: 'Denise Gillioz',
+      bio_signature: 'Denise',
+      bio_signature_caption: 'Glarus · since 2017',
+      bio_cta_atelier: 'Step into the atelier',
+      bio_cta_gallery: 'Browse the gallery',
+      bio_cta_journal: 'Read the journal',
+
+      atelier_open_diary: 'Open the studio diary',
+
+      parallax_eyebrow: 'A first teacher',
+      parallax_quote: 'The mountain is my first teacher. The wool is my second. I am still a student of both.',
+      parallax_cite: 'Denise · between Linthal and Klöntal',
+      scroll_cue: 'Discover',
+      write_tooltip: 'Write to Denise',
+
+      rhythm_eyebrow: 'A day in the atelier',
+      rhythm_title: 'The rhythm of the studio',
+      rhythm_lede: 'Glarus time, alpine seasons. The studio breathes to its own clock — here is what is happening right now.',
+      rhythm_phase_dawn: 'Denise lights the wood stove and opens the north window.',
+      rhythm_phase_morning: 'Studio hours · slow stitching by the cold morning light.',
+      rhythm_phase_noon: 'Tea break with chamomile and Tödi peak watching.',
+      rhythm_phase_afternoon: 'Afternoon weaving · jazz on vinyl, snow melting on the roof.',
+      rhythm_phase_evening: 'Reading by lamplight, sketching tomorrow’s palette.',
+      rhythm_phase_night: 'The atelier sleeps under alpine stars.',
+
+      diary_breadcrumb: 'Studio diary',
+      diary_eyebrow: 'A studio in fragments',
+      diary_title: 'The studio diary',
+      diary_lede: 'Short notes from the chalet attic — a yarn discovery, a sentence I underlined, a sketch of Tödi at dawn. No order, only weather.',
+      diary_filter_all: 'All',
+      diary_filter_sketch: 'Sketches',
+      diary_filter_yarn: 'Yarn',
+      diary_filter_palette: 'Palette',
+      diary_filter_weather: 'Weather',
+      diary_filter_book: 'Reading',
+      diary_filter_encounter: 'Encounters',
+      diary_filter_technique: 'Technique',
+      diary_empty: 'Nothing to show with this tag — pick another, or read everything.',
+      diary_signature_caption: 'Studio diary · updated when the light is right',
+      diary_e1_date: '12 Apr 2026 · Tuesday morning',
+      diary_e1_text: 'Snow returned to Tödi overnight. I drew its silhouette on the back of a tea tin and chose three skeins for today: cloud white, larch bark, summit shadow. The kitchen smells of bergamot.',
+      diary_e2_date: '28 Mar 2026 · Saturday late',
+      diary_e2_text: 'Annie Dillard, <em>Pilgrim at Tinker Creek</em>: “Beauty and grace are performed whether or not we will sense them.” I knit a row of garter stitch as I read this sentence three times.',
+      diary_e3_date: '16 Mar 2026 · Knit night',
+      diary_e3_text: 'Anneliese came back to the circle after two years away. She brought her late mother’s needles wrapped in linen. We did not knit much; we listened more.',
+      diary_e4_date: '22 Feb 2026 · Sunday',
+      diary_e4_text: 'Mira called from the Klöntal farm. The first March mérinos is being washed. She asked if I wanted the cream or the buttery one. Both, of course. Both, always.',
+      diary_e5_date: '8 Feb 2026 · Sunday',
+      diary_e5_text: 'I drew the Linth river from memory while waiting for the kettle. The river never stays the same colour twice in winter — slate, teal, oxblood at noon.',
+      diary_e6_date: '19 Jan 2026 · Sunday',
+      diary_e6_text: 'The fog never lifted today. The whole valley pearl grey. I dyed a small batch of cream wool with eucalyptus to match — three soakings, no urgency.',
+      diary_e7_date: '24 Dec 2025 · Christmas Eve',
+      diary_e7_text: 'I gave my eldest grandson the Heather Valley socks. He put them on immediately, shoes too tight after, didn’t care. Best gift returned: his face.',
+      diary_e8_date: '30 Nov 2025 · Saint Andrew’s',
+      diary_e8_text: 'Tried German short rows again on the Glärnisch shawl. The transition is finally invisible. Twelve years of knitting and a single technique can still humble you. Good.',
+      diary_e9_date: '12 Oct 2025 · Sunday',
+      diary_e9_text: 'Re-reading Anni Albers, <em>On Weaving</em>. Her line: “Material is the prime mover.” I underline it in the margin with a tea-stained finger.',
+      diary_e10_date: '8 Sep 2025 · Vinothèque',
+      diary_e10_text: 'Tasted three Glaronese wines with Madeleine. The dornfelder gave me my next palette: smoky garnet, cracked leather, evening fog.',
+      diary_e11_date: '21 Aug 2025 · Heatwave',
+      diary_e11_text: 'Too hot to knit wool, so I turned to a linen cap. Cool grey, clean grey, river grey. The needles felt cold. A blessing.',
+      diary_e12_date: '5 Jul 2025 · Lake Klöntal',
+      diary_e12_text: 'Kayak day with Madeleine. The lake produced exactly the teal I have been looking for since March. Took a photo, took a yarn cake, both for the studio wall.',
       hero_stat_pieces_n: '120+',
       hero_stat_pieces: 'Hand-knit pieces',
       hero_stat_hours_n: '5 200 h',
@@ -107,6 +193,29 @@
       gallery_extended_eyebrow: 'Full collection',
       gallery_extended_filter_mittens: 'Mittens',
       gallery_extended_category_mittens: 'Mittens',
+      gallery_hero_eyebrow: 'Full collection · open atelier',
+      gallery_hero_title_main: 'Pieces sculpted',
+      gallery_hero_title_script: 'row by row',
+      gallery_hero_lede: 'Each piece is hand-knit in a small batch — Swiss merino, baby alpaca, kid mohair, organic cotton. Wander by category or by palette; tap a piece to read its full technical sheet.',
+      gallery_meta_pieces: 'pieces',
+      gallery_meta_palettes: 'alpine palettes',
+      gallery_meta_cats_n: '5',
+      gallery_meta_cats: 'categories',
+      gallery_palettes_eyebrow: 'Browse by palette',
+      gallery_palettes_title: 'Twelve alpine palettes',
+      gallery_palettes_lede: 'Each palette borrows its colours from a Glaronese place, season or time of day.',
+      gallery_palettes_clear: 'Show all palettes',
+      gallery_cats_eyebrow: 'Browse by category',
+      gallery_cats_title: 'Five families of pieces',
+      gallery_cat_socks_text: 'Knee-warmers for alpine winters and slow Sunday mornings.',
+      gallery_cat_shawls_text: 'Wraps that hold the colour of Glarner skies, dawn to dusk.',
+      gallery_cat_ponchos_text: 'Earthy silhouettes for the chalet veranda and the mountain path.',
+      gallery_cat_caftans_text: 'Long, flowing layers that breathe with linen-wool blends.',
+      gallery_cat_mittens_text: 'Lantern-glow mitts for journaling, sketching, lighting candles.',
+      gallery_browse_label: 'Browse the full collection',
+      gallery_empty_reset: 'Show all pieces',
+      gallery_signature_caption: 'An open atelier · Glarus, since 2017',
+      bio_about_link: 'About Denise',
       gallery_ext_shawl_mistyteal_title: 'Misty Teal Shawl',
       gallery_ext_caftan_cedar2_title: 'Cedar Vista — Studio',
       gallery_ext_shawl_umber_title: 'Rustic Umber Stole',
@@ -121,7 +230,71 @@
       breadcrumb_home: 'Home',
       breadcrumb_gallery: 'Gallery',
       breadcrumb_blog: 'Journal',
+      breadcrumb_contact: 'Contact',
       breadcrumb_atelier: 'Atelier',
+      // Journal 2.0
+      journal_hero_eyebrow: 'Stories from the Glarus atelier',
+      journal_hero_title_main: 'Letters from',
+      journal_hero_title_script: 'the chalet attic',
+      journal_hero_lede: 'Slow essays on resilience, wool, alpine seasons and the rituals of an open atelier. Read by the wood stove, with chamomile in hand.',
+      journal_featured_label: 'Featured · Latest',
+      journal_filters_label: 'By theme',
+      journal_read_essay: 'Read the essay',
+      journal_empty: 'No story matches this theme yet — try another, or read everything.',
+      journal_postscript_eyebrow: 'A note for readers',
+      journal_postscript_text: 'These essays are slow. Read them as you would a long letter — not for information, but for company. The wood stove is on, the kettle is full, and the pages do not expect anything of you.',
+      journal_signature_caption: 'Journal · written between rows',
+      journal_card1_read: '6 min read',
+      journal_card2_read: '5 min read',
+      journal_card3_read: '4 min read',
+      journal_card4_read: '5 min read',
+      blog_card1_date_long: '5 February 2024',
+      blog_card2_date_long: '22 January 2024',
+      blog_card3_date_long: '10 December 2023',
+      blog_card4_date_long: '18 November 2023',
+      // Contact 2.0
+      contact_hero_eyebrow: 'Write to the atelier',
+      contact_hero_title_main: 'A letter to',
+      contact_hero_title_script: 'Denise',
+      contact_hero_lede: 'No order forms, no carts. Just an open door, a warm kettle, and a quiet inbox. Tell me about a piece, share a memory of wool, or simply say hello — I read every letter.',
+      contact_form_eyebrow: 'A few words is enough',
+      contact_form_title: 'Send your letter',
+      contact_subject_label: 'Reason for your letter',
+      contact_subject_hello: 'Just saying hello',
+      contact_subject_piece: 'About a piece',
+      contact_subject_commission: 'A gentle commission',
+      contact_subject_visit: 'Visiting the atelier',
+      contact_subject_press: 'Press & conversations',
+      contact_consent: 'I trust Denise with these few lines. They will be read with care and never shared.',
+      contact_reply_hint: 'Replies arrive within a week — slow, like the work itself.',
+      contact_channels_eyebrow: 'Other quiet ways',
+      contact_channels_title: 'Reach the atelier',
+      contact_channel_email_label: 'By email',
+      contact_channel_email_meta: 'Letters answered slowly, with intention.',
+      contact_channel_postal_label: 'By post',
+      contact_channel_postal_meta: 'Hand-written letters always welcome.',
+      contact_channel_knitnight_label: 'Knit nights',
+      contact_channel_knitnight_value: 'Every other Thursday · 7 — 9 pm',
+      contact_channel_knitnight_meta: 'Open atelier — bring your needles or simply your tea.',
+      contact_channel_social_label: 'Slow social',
+      contact_channel_social_value: 'Pinterest · Ravelry · the occasional postcard',
+      contact_channel_social_meta: 'No algorithms here — just stitches.',
+      contact_map_eyebrow: 'Find the atelier',
+      contact_map_title_main: 'A door in',
+      contact_map_title_script: 'Glarus',
+      contact_map_lede: 'Tucked between the river Linth and the slopes of the Glärnisch, the atelier opens by gentle appointment. Ring before you ring the bell.',
+      contact_faq_eyebrow: 'Quiet questions',
+      contact_faq_title: 'Before you write',
+      contact_faq1_q: 'Do you sell pieces from the gallery?',
+      contact_faq1_a: 'No — the gallery is a sharing space. Pieces remain at the atelier or travel as gifts. If you fall in love with one, write to me; we may find a private way for it to live with you.',
+      contact_faq2_q: 'Can I commission a piece?',
+      contact_faq2_a: 'Gentle, occasional commissions are possible — for a christening blanket, a wedding shawl, an heirloom mended into a new life. Tell me the story and the timeline; I will tell you whether the rows have room.',
+      contact_faq3_q: 'May I visit the atelier?',
+      contact_faq3_a: 'Yes, by quiet appointment. Knit nights are open without notice. For private visits, write a few days ahead — kettle and chair await.',
+      contact_faq4_q: 'How long does a reply take?',
+      contact_faq4_a: 'Within a week, often sooner. The atelier moves at the pace of stitches — never instantly, always sincerely.',
+      contact_signature_caption: 'Letters · written by hand, replied between rows',
+      bio_cta_collection: 'Browse the collection',
       product_section_story: 'The story',
       product_section_specs: 'Technical sheet',
       product_section_palette: 'Palette',
@@ -193,6 +366,92 @@
       slide3_cta_secondary: 'Écrire à Denise',
       slide3_signature: 'Glaris',
       slide3_signature_role: 'Suisse · depuis 2017',
+      bio_breadcrumb: 'À propos de Denise',
+      bio_eyebrow: 'L’artisane',
+      bio_name_first: 'Denise',
+      bio_name_last: 'Gillioz',
+      bio_kicker: 'atelier de Glaris',
+      bio_lede: 'Tricoteuse par passion, conteuse par tempérament. Suisse · depuis le printemps 2017.',
+      bio_manifesto: 'Pendant trente-huit ans, j’ai été assise à des bureaux administratifs. J’ai classé des dossiers, tenu des registres, signé des procès-verbaux. Je l’ai fait avec soin, et avec joie — mais quelque part entre les classeurs et les fenêtres de bureau, mes mains s’étaient immobilisées. Le jour où j’ai pris ma retraite, j’ai monté une paire de chaussettes. Je n’ai plus jamais reposé les aiguilles.',
+      bio_chap1_eyebrow: 'Chapitre un',
+      bio_chap1_title: 'Le tournant de la retraite',
+      bio_chap1_p1: 'La retraite ne s’annonce pas en fanfare. Elle arrive dans une carte de remerciement et un mardi matin vide. Pour moi, ce matin-là fut le 14 mars 2017. J’ai fait du thé, ouvert les volets du chalet sur un Tödi givré, et cherché quelque chose à tenir.',
+      bio_chap1_p2: 'Les aiguilles sont descendues du grenier — celles de ma mère, en noyer, polies par cinquante ans de ses propres mains. J’ai monté vingt mailles et n’ai pas levé les yeux jusqu’au déjeuner. Quelque chose en moi attendait ce silence.',
+      bio_chap2_eyebrow: 'Chapitre deux',
+      bio_chap2_title: 'La rencontre avec la laine',
+      bio_chap2_p1: 'J’avais déjà tricoté — des écharpes pour mes petits-fils, un cardigan, une fois, pour un enterrement que je ne nommerai pas. Mais rencontrer la laine à la retraite n’est pas la même chose que la rencontrer en hâte un dimanche.',
+      bio_chap2_p2: 'J’ai lu ; j’ai écouté des fileuses ; j’ai conduit jusqu’à de petites fermes de Linthal et Klöntal où des femmes dont je murmure les prénoms comme des prières — Mira, Ruth, Heidi — m’ont appris comment le mérinos veut être tenu, pourquoi le bébé alpaga se couche et le mérinos se redresse, ce que le kid mohair fait à la lumière de six heures du soir. La laine m’a appris la patience. La patience m’a appris à dessiner.',
+      bio_chap3_eyebrow: 'Chapitre trois',
+      bio_chap3_title: 'L’atelier aujourd’hui',
+      bio_chap3_p1: 'Mon atelier occupe le grenier converti de notre chalet, exposé nord, éclairé par la neige six mois par an. Il y a un poêle à bois que j’entretiens comme un troisième petit-enfant, un établi que mon père a construit en 1972, un dévidoir vintage chiné à Bâle.',
+      bio_chap3_p2: 'Je tricote entre six heures du matin et six heures du soir, avec une pause camomille à midi. J’organise un cercle de tricot mensuel à la Gemeindehausplatz ; les nouveaux venus reçoivent un thé, un patron et un mot d’accueil manuscrit.',
+      bio_chap3_p3: 'Je ne vends pas. Je partage. Je publie des photographies parce que j’aime la palette alpine et veux qu’elle vive ailleurs que dans mes seuls yeux. Ce site n’est pas une boutique — c’est un atelier ouvert. Entrez. Restez un peu.',
+      bio_quote1: 'Chaque maille est un petit souffle que je prends pour l’avenir.',
+      bio_quote2: 'La patience m’a appris à dessiner.',
+      bio_quote3: 'Je ne vends pas. Je partage.',
+      bio_quote_author: 'Denise Gillioz',
+      bio_signature: 'Denise',
+      bio_signature_caption: 'Glaris · depuis 2017',
+      bio_cta_atelier: 'Entrer dans l’atelier',
+      bio_cta_gallery: 'Voir la galerie',
+      bio_cta_journal: 'Lire le journal',
+
+      atelier_open_diary: 'Ouvrir le carnet de l’atelier',
+
+      parallax_eyebrow: 'Une première maîtresse',
+      parallax_quote: 'La montagne est ma première maîtresse. La laine est ma seconde. Je suis encore l’élève des deux.',
+      parallax_cite: 'Denise · entre Linthal et Klöntal',
+      scroll_cue: 'Découvrir',
+      write_tooltip: 'Écrire à Denise',
+
+      rhythm_eyebrow: 'Un jour à l’atelier',
+      rhythm_title: 'Le rythme de l’atelier',
+      rhythm_lede: 'Heure de Glaris, saisons alpines. L’atelier respire à son propre rythme — voici ce qui s’y passe en ce moment.',
+      rhythm_phase_dawn: 'Denise allume le poêle à bois et ouvre la fenêtre du nord.',
+      rhythm_phase_morning: 'Heures d’atelier · mailles lentes dans la lumière froide du matin.',
+      rhythm_phase_noon: 'Pause camomille en regardant le sommet du Tödi.',
+      rhythm_phase_afternoon: 'Tissage de l’après-midi · jazz sur vinyle, neige fondante sur le toit.',
+      rhythm_phase_evening: 'Lecture sous la lampe, croquis de la palette de demain.',
+      rhythm_phase_night: 'L’atelier dort sous les étoiles alpines.',
+
+      diary_breadcrumb: 'Carnet de l’atelier',
+      diary_eyebrow: 'Un atelier en fragments',
+      diary_title: 'Le carnet de l’atelier',
+      diary_lede: 'Notes courtes du grenier du chalet — une trouvaille de fil, une phrase soulignée, un croquis du Tödi à l’aube. Aucun ordre, seulement la météo.',
+      diary_filter_all: 'Tous',
+      diary_filter_sketch: 'Croquis',
+      diary_filter_yarn: 'Laine',
+      diary_filter_palette: 'Palette',
+      diary_filter_weather: 'Météo',
+      diary_filter_book: 'Lectures',
+      diary_filter_encounter: 'Rencontres',
+      diary_filter_technique: 'Technique',
+      diary_empty: 'Rien à montrer avec ce tag — choisissez-en un autre, ou lisez tout.',
+      diary_signature_caption: 'Carnet d’atelier · mis à jour quand la lumière est juste',
+      diary_e1_date: '12 avr. 2026 · Mardi matin',
+      diary_e1_text: 'La neige est revenue sur le Tödi pendant la nuit. J’ai dessiné sa silhouette au dos d’une boîte à thé et choisi trois écheveaux pour aujourd’hui : blanc nuage, écorce de mélèze, ombre de sommet. La cuisine sent la bergamote.',
+      diary_e2_date: '28 mars 2026 · Samedi tard',
+      diary_e2_text: 'Annie Dillard, <em>Pilgrim at Tinker Creek</em> : « La beauté et la grâce s’accomplissent, que nous les percevions ou non. » Je tricote un rang de point mousse en relisant trois fois cette phrase.',
+      diary_e3_date: '16 mars 2026 · Soirée tricot',
+      diary_e3_text: 'Anneliese est revenue au cercle après deux ans d’absence. Elle a apporté les aiguilles de sa mère, enveloppées dans du lin. Nous n’avons pas beaucoup tricoté ; nous avons surtout écouté.',
+      diary_e4_date: '22 fév. 2026 · Dimanche',
+      diary_e4_text: 'Mira a appelé de la ferme du Klöntal. Le premier mérinos de mars est en cours de lavage. Elle m’a demandé si je voulais le crème ou le beurré. Les deux, bien sûr. Les deux, toujours.',
+      diary_e5_date: '8 fév. 2026 · Dimanche',
+      diary_e5_text: 'J’ai dessiné la Linth de mémoire en attendant la bouilloire. La rivière ne reste jamais deux fois de la même couleur en hiver — ardoise, teal, sang-de-bœuf à midi.',
+      diary_e6_date: '19 janv. 2026 · Dimanche',
+      diary_e6_text: 'Le brouillard ne s’est pas levé aujourd’hui. Toute la vallée gris perle. J’ai teint un petit lot de laine crème à l’eucalyptus pour assortir — trois bains, sans hâte.',
+      diary_e7_date: '24 déc. 2025 · Réveillon',
+      diary_e7_text: 'J’ai offert à mon aîné petit-fils les chaussettes Heather Valley. Il les a enfilées immédiatement, chaussures trop serrées ensuite, sans s’en plaindre. Plus beau cadeau retourné : son visage.',
+      diary_e8_date: '30 nov. 2025 · Saint André',
+      diary_e8_text: 'Réessayé les rangs raccourcis allemands sur le châle Glärnisch. La transition est enfin invisible. Douze ans de tricot et une seule technique sait encore vous humilier. Tant mieux.',
+      diary_e9_date: '12 oct. 2025 · Dimanche',
+      diary_e9_text: 'Je relis Anni Albers, <em>On Weaving</em>. Sa phrase : « La matière est le moteur premier. » Je la souligne dans la marge d’un doigt taché de thé.',
+      diary_e10_date: '8 sept. 2025 · Vinothèque',
+      diary_e10_text: 'Dégusté trois vins glaronnais avec Madeleine. Le dornfelder m’a offert ma prochaine palette : grenat fumé, cuir craquelé, brouillard du soir.',
+      diary_e11_date: '21 août 2025 · Canicule',
+      diary_e11_text: 'Trop chaud pour tricoter de la laine, alors je suis passée à un bonnet de lin. Gris frais, gris propre, gris de rivière. Les aiguilles étaient froides. Une bénédiction.',
+      diary_e12_date: '5 juil. 2025 · Lac de Klöntal',
+      diary_e12_text: 'Journée kayak avec Madeleine. Le lac a produit exactement le teal que je cherchais depuis mars. J’ai pris une photo, j’ai pris un écheveau, les deux pour le mur du studio.',
       hero_stat_pieces_n: '120+',
       hero_stat_pieces: 'Pièces tricotées main',
       hero_stat_hours_n: '5 200 h',
@@ -252,6 +511,29 @@
       gallery_extended_eyebrow: 'Collection complète',
       gallery_extended_filter_mittens: 'Mitaines',
       gallery_extended_category_mittens: 'Mitaines',
+      gallery_hero_eyebrow: 'Collection complète · atelier ouvert',
+      gallery_hero_title_main: 'Pièces sculptées',
+      gallery_hero_title_script: 'rang par rang',
+      gallery_hero_lede: 'Chaque pièce est tricotée main en petite série — mérinos suisse, bébé alpaga, kid mohair, coton bio. Parcourez par catégorie ou par palette ; touchez une pièce pour lire sa fiche technique complète.',
+      gallery_meta_pieces: 'pièces',
+      gallery_meta_palettes: 'palettes alpines',
+      gallery_meta_cats_n: '5',
+      gallery_meta_cats: 'catégories',
+      gallery_palettes_eyebrow: 'Parcourir par palette',
+      gallery_palettes_title: 'Douze palettes alpines',
+      gallery_palettes_lede: 'Chaque palette emprunte ses couleurs à un lieu glaronnais, une saison ou un moment du jour.',
+      gallery_palettes_clear: 'Voir toutes les palettes',
+      gallery_cats_eyebrow: 'Parcourir par catégorie',
+      gallery_cats_title: 'Cinq familles de pièces',
+      gallery_cat_socks_text: 'Chausse-genoux pour les hivers alpins et les matinées lentes du dimanche.',
+      gallery_cat_shawls_text: 'Étoles qui portent les couleurs des ciels glaronnais, de l’aube au crépuscule.',
+      gallery_cat_ponchos_text: 'Silhouettes terriennes pour la véranda du chalet et le sentier de montagne.',
+      gallery_cat_caftans_text: 'Pièces longues et fluides qui respirent en mélange lin-laine.',
+      gallery_cat_mittens_text: 'Mitaines lumière-de-lanterne pour journaling, croquis, allumer des bougies.',
+      gallery_browse_label: 'Parcourir la collection complète',
+      gallery_empty_reset: 'Voir toutes les pièces',
+      gallery_signature_caption: 'Un atelier ouvert · Glaris, depuis 2017',
+      bio_about_link: 'À propos de Denise',
       gallery_ext_shawl_mistyteal_title: 'Châle Teal Brumeux',
       gallery_ext_caftan_cedar2_title: 'Cèdre Vista — Studio',
       gallery_ext_shawl_umber_title: 'Stole Umbra Rustique',
@@ -266,7 +548,71 @@
       breadcrumb_home: 'Accueil',
       breadcrumb_gallery: 'Galerie',
       breadcrumb_blog: 'Journal',
+      breadcrumb_contact: 'Contact',
       breadcrumb_atelier: 'Atelier',
+      // Journal 2.0
+      journal_hero_eyebrow: 'Récits de l’atelier glaronnais',
+      journal_hero_title_main: 'Lettres depuis',
+      journal_hero_title_script: 'le grenier du chalet',
+      journal_hero_lede: 'Essais lents sur la résilience, la laine, les saisons alpines et les rituels d’un atelier ouvert. À lire près du poêle, une camomille à la main.',
+      journal_featured_label: 'À la une · Dernier',
+      journal_filters_label: 'Par thème',
+      journal_read_essay: 'Lire l’essai',
+      journal_empty: 'Aucun récit ne correspond à ce thème — essayez-en un autre, ou lisez tout.',
+      journal_postscript_eyebrow: 'Une note pour vous',
+      journal_postscript_text: 'Ces essais sont lents. Lisez-les comme on lit une longue lettre — non pour s’informer, mais pour la compagnie. Le poêle ronronne, la bouilloire est pleine, et les pages n’attendent rien de vous.',
+      journal_signature_caption: 'Journal · écrit entre les rangs',
+      journal_card1_read: '6 min de lecture',
+      journal_card2_read: '5 min de lecture',
+      journal_card3_read: '4 min de lecture',
+      journal_card4_read: '5 min de lecture',
+      blog_card1_date_long: '5 février 2024',
+      blog_card2_date_long: '22 janvier 2024',
+      blog_card3_date_long: '10 décembre 2023',
+      blog_card4_date_long: '18 novembre 2023',
+      // Contact 2.0
+      contact_hero_eyebrow: 'Écrire à l’atelier',
+      contact_hero_title_main: 'Une lettre à',
+      contact_hero_title_script: 'Denise',
+      contact_hero_lede: 'Pas de bons de commande, pas de panier. Une porte ouverte, une bouilloire chaude, une boîte aux lettres tranquille. Parlez-moi d’une pièce, d’un souvenir de laine, ou dites simplement bonjour — je lis chaque lettre.',
+      contact_form_eyebrow: 'Quelques mots suffisent',
+      contact_form_title: 'Envoyer votre lettre',
+      contact_subject_label: 'Motif de votre lettre',
+      contact_subject_hello: 'Juste un bonjour',
+      contact_subject_piece: 'À propos d’une pièce',
+      contact_subject_commission: 'Une commande douce',
+      contact_subject_visit: 'Visiter l’atelier',
+      contact_subject_press: 'Presse & conversations',
+      contact_consent: 'Je confie ces quelques lignes à Denise. Elles seront lues avec soin et jamais partagées.',
+      contact_reply_hint: 'Une réponse vous parviendra sous une semaine — au rythme du tricot.',
+      contact_channels_eyebrow: 'Autres voies tranquilles',
+      contact_channels_title: 'Joindre l’atelier',
+      contact_channel_email_label: 'Par e-mail',
+      contact_channel_email_meta: 'Lettres lues lentement, avec intention.',
+      contact_channel_postal_label: 'Par voie postale',
+      contact_channel_postal_meta: 'Les lettres manuscrites sont toujours bienvenues.',
+      contact_channel_knitnight_label: 'Soirées tricot',
+      contact_channel_knitnight_value: 'Un jeudi sur deux · 19 — 21 h',
+      contact_channel_knitnight_meta: 'Atelier ouvert — apportez vos aiguilles ou seulement votre tasse.',
+      contact_channel_social_label: 'Réseaux apaisés',
+      contact_channel_social_value: 'Pinterest · Ravelry · une carte postale parfois',
+      contact_channel_social_meta: 'Pas d’algorithmes — seulement des mailles.',
+      contact_map_eyebrow: 'Trouver l’atelier',
+      contact_map_title_main: 'Une porte à',
+      contact_map_title_script: 'Glaris',
+      contact_map_lede: 'Lové entre la Linth et les pentes du Glärnisch, l’atelier s’ouvre sur rendez-vous discret. Sonnez avant de sonner à la porte.',
+      contact_faq_eyebrow: 'Questions tranquilles',
+      contact_faq_title: 'Avant d’écrire',
+      contact_faq1_q: 'Vendez-vous les pièces de la galerie ?',
+      contact_faq1_a: 'Non — la galerie est un espace de partage. Les pièces restent à l’atelier ou voyagent en cadeau. Si l’une d’elles vous touche, écrivez-moi ; nous trouverons peut-être un chemin discret pour qu’elle vous accompagne.',
+      contact_faq2_q: 'Puis-je commander une pièce ?',
+      contact_faq2_a: 'Des commandes douces et occasionnelles sont possibles — une couverture de baptême, un châle de mariage, un héritage repris à neuf. Racontez l’histoire et le délai ; je vous dirai si les rangs ont la place.',
+      contact_faq3_q: 'Puis-je visiter l’atelier ?',
+      contact_faq3_a: 'Oui, sur rendez-vous tranquille. Les soirées tricot sont ouvertes sans annonce. Pour une visite privée, écrivez quelques jours à l’avance — la bouilloire et la chaise vous attendent.',
+      contact_faq4_q: 'Combien de temps pour une réponse ?',
+      contact_faq4_a: 'Dans la semaine, souvent plus tôt. L’atelier avance au rythme des mailles — jamais instantané, toujours sincère.',
+      contact_signature_caption: 'Lettres · écrites à la main, répondues entre les rangs',
+      bio_cta_collection: 'Parcourir la collection',
       product_section_story: 'L’histoire',
       product_section_specs: 'Fiche technique',
       product_section_palette: 'Palette',
@@ -333,6 +679,92 @@
       slide3_cta_secondary: 'An Denise schreiben',
       slide3_signature: 'Glarus',
       slide3_signature_role: 'Schweiz · seit 2017',
+      bio_breadcrumb: 'Über Denise',
+      bio_eyebrow: 'Die Macherin',
+      bio_name_first: 'Denise',
+      bio_name_last: 'Gillioz',
+      bio_kicker: 'atelier de Glaris',
+      bio_lede: 'Strickerin aus Leidenschaft, Erzählerin aus Herzensgrund. Schweiz · seit dem Frühling 2017.',
+      bio_manifesto: 'Achtunddreißig Jahre lang saß ich an Verwaltungsschreibtischen. Ich sortierte Akten, führte Bücher, unterzeichnete Protokolle. Ich tat es gut, und ich tat es gern — doch irgendwo zwischen den Aktenschränken und den Bürofenstern waren meine Hände still geworden. Am Tag meiner Pensionierung schlug ich ein Paar Socken an. Seither habe ich die Nadeln nicht mehr aus der Hand gelegt.',
+      bio_chap1_eyebrow: 'Erstes Kapitel',
+      bio_chap1_title: 'Die Wende der Pension',
+      bio_chap1_p1: 'Die Pension kündigt sich nicht mit Fanfaren an. Sie kommt in einer Dankeskarte und einem leeren Dienstagmorgen. Für mich war dieser Morgen der 14. März 2017. Ich kochte Tee, öffnete die Chaletfenster auf einen frostgebissenen Tödi und suchte nach etwas, das ich halten konnte.',
+      bio_chap1_p2: 'Die Nadeln kamen vom Dachboden — die meiner Mutter, aus Walnussholz, glatt geworden durch ihre eigenen Hände vor fünfzig Jahren. Ich schlug zwanzig Maschen an und blickte nicht auf bis zum Mittag. Etwas in mir hatte auf diese Stille gewartet.',
+      bio_chap2_eyebrow: 'Zweites Kapitel',
+      bio_chap2_title: 'Die Begegnung mit der Wolle',
+      bio_chap2_p1: 'Ich hatte schon gestrickt — Schals für meine Enkel, einen Cardigan einmal für eine Beerdigung, die ich nicht nennen werde. Doch der Wolle in der Pension zu begegnen ist nicht dasselbe, wie ihr in einem hastigen Sonntagshobby zu begegnen.',
+      bio_chap2_p2: 'Ich las; ich hörte Spinnerinnen zu; ich fuhr zu kleinen Höfen in Linthal und Klöntal, wo Frauen, deren Namen ich heute wie Gebete flüstere — Mira, Ruth, Heidi — mir lehrten, wie Merinofasern gehalten werden wollen, warum Babyalpaka liegt und Merino aufspringt, was Kid-Mohair um sechs Uhr abends mit dem Licht macht. Die Wolle lehrte mich Geduld. Geduld lehrte mich zu entwerfen.',
+      bio_chap3_eyebrow: 'Drittes Kapitel',
+      bio_chap3_title: 'Das Atelier heute',
+      bio_chap3_p1: 'Mein Atelier liegt im umgebauten Dachboden unseres Chalets, nordwärts ausgerichtet, sechs Monate im Jahr vom Schnee erleuchtet. Da ist ein Holzofen, den ich pflege wie ein drittes Enkelkind, ein Werktisch, den mein Vater 1972 gebaut hat, ein in Basel ergatterter Vintage-Spuler.',
+      bio_chap3_p2: 'Ich stricke zwischen sechs Uhr morgens und sechs Uhr abends, mit einer Kamillenpause am Mittag. Ich richte einen monatlichen Strickkreis an der Gemeindehausplatz aus; Neuankommende erhalten Tee, ein Muster und eine handgeschriebene Begrüßung.',
+      bio_chap3_p3: 'Ich verkaufe nicht. Ich teile. Ich poste Fotografien, weil ich die Alpenpalette liebe und sie anderswo leben lassen möchte als nur in meinen eigenen Augen. Diese Seite ist kein Laden — sie ist ein offenes Atelier. Treten Sie ein. Bleiben Sie eine Weile.',
+      bio_quote1: 'Jede Masche ist ein kleiner Atemzug, den ich für die Zukunft nehme.',
+      bio_quote2: 'Geduld lehrte mich zu entwerfen.',
+      bio_quote3: 'Ich verkaufe nicht. Ich teile.',
+      bio_quote_author: 'Denise Gillioz',
+      bio_signature: 'Denise',
+      bio_signature_caption: 'Glarus · seit 2017',
+      bio_cta_atelier: 'Atelier betreten',
+      bio_cta_gallery: 'Galerie ansehen',
+      bio_cta_journal: 'Journal lesen',
+
+      atelier_open_diary: 'Atelier-Tagebuch öffnen',
+
+      parallax_eyebrow: 'Eine erste Lehrmeisterin',
+      parallax_quote: 'Der Berg ist meine erste Lehrmeisterin. Die Wolle ist meine zweite. Ich bin noch Schülerin beider.',
+      parallax_cite: 'Denise · zwischen Linthal und Klöntal',
+      scroll_cue: 'Entdecken',
+      write_tooltip: 'An Denise schreiben',
+
+      rhythm_eyebrow: 'Ein Tag im Atelier',
+      rhythm_title: 'Der Rhythmus des Ateliers',
+      rhythm_lede: 'Glarner Zeit, alpine Jahreszeiten. Das Atelier atmet nach seinem eigenen Takt — hier ist, was gerade geschieht.',
+      rhythm_phase_dawn: 'Denise zündet den Holzofen an und öffnet das Nordfenster.',
+      rhythm_phase_morning: 'Atelierstunden · langsame Maschen im kalten Morgenlicht.',
+      rhythm_phase_noon: 'Kamillenpause beim Blick auf den Tödi-Gipfel.',
+      rhythm_phase_afternoon: 'Nachmittagsgewebe · Jazz auf Vinyl, Schnee schmilzt aufs Dach.',
+      rhythm_phase_evening: 'Lesen unter der Lampe, Skizze der morgigen Palette.',
+      rhythm_phase_night: 'Das Atelier schläft unter alpinen Sternen.',
+
+      diary_breadcrumb: 'Atelier-Tagebuch',
+      diary_eyebrow: 'Ein Atelier in Fragmenten',
+      diary_title: 'Das Atelier-Tagebuch',
+      diary_lede: 'Kurze Notizen aus dem Chalet-Dachboden — ein Wollfund, ein unterstrichener Satz, eine Skizze des Tödi im Morgengrauen. Keine Ordnung, nur Wetter.',
+      diary_filter_all: 'Alle',
+      diary_filter_sketch: 'Skizzen',
+      diary_filter_yarn: 'Wolle',
+      diary_filter_palette: 'Palette',
+      diary_filter_weather: 'Wetter',
+      diary_filter_book: 'Lektüre',
+      diary_filter_encounter: 'Begegnungen',
+      diary_filter_technique: 'Technik',
+      diary_empty: 'Nichts zu diesem Tag — wählen Sie ein anderes, oder lesen Sie alles.',
+      diary_signature_caption: 'Atelier-Tagebuch · aktualisiert, wenn das Licht stimmt',
+      diary_e1_date: '12. April 2026 · Dienstagmorgen',
+      diary_e1_text: 'Über Nacht kehrte Schnee auf den Tödi zurück. Ich zeichnete seine Silhouette auf die Rückseite einer Teedose und wählte drei Stränge für heute: Wolkenweiß, Lärchenrinde, Gipfelschatten. Die Küche riecht nach Bergamotte.',
+      diary_e2_date: '28. März 2026 · Samstag spät',
+      diary_e2_text: 'Annie Dillard, <em>Pilgrim at Tinker Creek</em>: „Schönheit und Anmut werden vollzogen, ob wir sie nun spüren oder nicht.“ Ich strickte eine Reihe Krausrippe, während ich diesen Satz dreimal las.',
+      diary_e3_date: '16. März 2026 · Strickabend',
+      diary_e3_text: 'Anneliese kam nach zwei Jahren Abwesenheit zurück in den Kreis. Sie brachte die Nadeln ihrer verstorbenen Mutter, in Leinen gewickelt. Wir strickten wenig; wir hörten mehr zu.',
+      diary_e4_date: '22. Februar 2026 · Sonntag',
+      diary_e4_text: 'Mira rief vom Klöntaler Hof an. Das erste März-Merino wird gewaschen. Sie fragte, ob ich das Cremefarbene oder das Butterige wolle. Beide, natürlich. Beide, immer.',
+      diary_e5_date: '8. Februar 2026 · Sonntag',
+      diary_e5_text: 'Ich zeichnete die Linth aus dem Gedächtnis, während der Kessel heiß wurde. Der Fluss bleibt im Winter nie zweimal dieselbe Farbe — Schiefer, Teal, Ochsenblut am Mittag.',
+      diary_e6_date: '19. Januar 2026 · Sonntag',
+      diary_e6_text: 'Der Nebel hob sich heute nicht. Das ganze Tal perlgrau. Ich färbte einen kleinen Strang Cremewolle mit Eukalyptus passend dazu — drei Wässer, ohne Eile.',
+      diary_e7_date: '24. Dezember 2025 · Heiligabend',
+      diary_e7_text: 'Ich schenkte meinem ältesten Enkel die Heather-Valley-Socken. Er zog sie sofort an, danach saßen die Schuhe zu eng, das war ihm egal. Bestes erwidertes Geschenk: sein Gesicht.',
+      diary_e8_date: '30. November 2025 · Andreastag',
+      diary_e8_text: 'Habe deutsche Kurzreihen am Glärnisch-Schal noch einmal versucht. Der Übergang ist endlich unsichtbar. Zwölf Jahre Stricken, und eine einzige Technik kann einen noch demütigen. Gut so.',
+      diary_e9_date: '12. Oktober 2025 · Sonntag',
+      diary_e9_text: 'Lese Anni Albers, <em>On Weaving</em>, wieder. Ihr Satz: „Material ist der erste Beweger.“ Ich unterstreiche ihn am Rand mit einem teefleckigen Finger.',
+      diary_e10_date: '8. September 2025 · Vinothek',
+      diary_e10_text: 'Drei Glarner Weine mit Madeleine probiert. Der Dornfelder schenkte mir meine nächste Palette: rauchiger Granat, gerissenes Leder, Abendnebel.',
+      diary_e11_date: '21. August 2025 · Hitzewelle',
+      diary_e11_text: 'Zu heiß für Wolle, also griff ich zu einer Leinenmütze. Kühles Grau, sauberes Grau, Flussgrau. Die Nadeln fühlten sich kalt an. Ein Segen.',
+      diary_e12_date: '5. Juli 2025 · Klöntalersee',
+      diary_e12_text: 'Kajaktag mit Madeleine. Der See ergab genau das Teal, das ich seit März suchte. Ich nahm ein Foto, ich nahm einen Wollknäuel — beides für die Atelierwand.',
       hero_stat_pieces_n: '120+',
       hero_stat_pieces: 'Handgestrickte Stücke',
       hero_stat_hours_n: '5 200 h',
@@ -392,6 +824,29 @@
       gallery_extended_eyebrow: 'Gesamtkollektion',
       gallery_extended_filter_mittens: 'Stulpen',
       gallery_extended_category_mittens: 'Stulpen',
+      gallery_hero_eyebrow: 'Gesamtkollektion · offenes Atelier',
+      gallery_hero_title_main: 'Stücke geformt',
+      gallery_hero_title_script: 'Reihe um Reihe',
+      gallery_hero_lede: 'Jedes Stück ist von Hand in kleinen Serien gestrickt — Schweizer Merino, Babyalpaka, Kid-Mohair, Bio-Baumwolle. Stöbern Sie nach Kategorie oder Palette; tippen Sie ein Stück an, um sein vollständiges technisches Datenblatt zu lesen.',
+      gallery_meta_pieces: 'Stücke',
+      gallery_meta_palettes: 'Alpenpaletten',
+      gallery_meta_cats_n: '5',
+      gallery_meta_cats: 'Kategorien',
+      gallery_palettes_eyebrow: 'Nach Palette stöbern',
+      gallery_palettes_title: 'Zwölf Alpenpaletten',
+      gallery_palettes_lede: 'Jede Palette borgt sich ihre Farben von einem Glarner Ort, einer Jahreszeit oder Tageszeit.',
+      gallery_palettes_clear: 'Alle Paletten zeigen',
+      gallery_cats_eyebrow: 'Nach Kategorie stöbern',
+      gallery_cats_title: 'Fünf Stückfamilien',
+      gallery_cat_socks_text: 'Kniewärmer für alpine Winter und langsame Sonntagmorgen.',
+      gallery_cat_shawls_text: 'Tücher, die die Farben des Glarner Himmels tragen, von der Dämmerung bis zum Abend.',
+      gallery_cat_ponchos_text: 'Erdige Silhouetten für die Chaletveranda und den Bergweg.',
+      gallery_cat_caftans_text: 'Lange, fließende Schichten, die in Leinen-Woll-Mischungen atmen.',
+      gallery_cat_mittens_text: 'Laternenlicht-Stulpen für Tagebuch, Skizze, Kerzen anzünden.',
+      gallery_browse_label: 'Die vollständige Kollektion durchstöbern',
+      gallery_empty_reset: 'Alle Stücke zeigen',
+      gallery_signature_caption: 'Ein offenes Atelier · Glarus, seit 2017',
+      bio_about_link: 'Über Denise',
       gallery_ext_shawl_mistyteal_title: 'Nebelteal-Schal',
       gallery_ext_caftan_cedar2_title: 'Zedernblick — Studio',
       gallery_ext_shawl_umber_title: 'Rustikale Umbra-Stola',
@@ -406,7 +861,71 @@
       breadcrumb_home: 'Startseite',
       breadcrumb_gallery: 'Galerie',
       breadcrumb_blog: 'Journal',
+      breadcrumb_contact: 'Kontakt',
       breadcrumb_atelier: 'Atelier',
+      // Journal 2.0
+      journal_hero_eyebrow: 'Geschichten aus dem Glarner Atelier',
+      journal_hero_title_main: 'Briefe aus',
+      journal_hero_title_script: 'der Chaletstube',
+      journal_hero_lede: 'Langsame Essays über Resilienz, Wolle, Alpenjahreszeiten und die Rituale eines offenen Ateliers. Am Holzofen zu lesen, mit Kamillentee in der Hand.',
+      journal_featured_label: 'Empfohlen · Neueste',
+      journal_filters_label: 'Nach Thema',
+      journal_read_essay: 'Den Essay lesen',
+      journal_empty: 'Kein Beitrag passt zu diesem Thema — versuchen Sie ein anderes oder lesen Sie alles.',
+      journal_postscript_eyebrow: 'Eine Notiz für Lesende',
+      journal_postscript_text: 'Diese Essays sind langsam. Lesen Sie sie wie einen langen Brief — nicht für Informationen, sondern für Gesellschaft. Der Holzofen brennt, der Kessel ist voll, und die Seiten erwarten nichts von Ihnen.',
+      journal_signature_caption: 'Journal · zwischen den Reihen geschrieben',
+      journal_card1_read: '6 Min. Lesezeit',
+      journal_card2_read: '5 Min. Lesezeit',
+      journal_card3_read: '4 Min. Lesezeit',
+      journal_card4_read: '5 Min. Lesezeit',
+      blog_card1_date_long: '5. Februar 2024',
+      blog_card2_date_long: '22. Januar 2024',
+      blog_card3_date_long: '10. Dezember 2023',
+      blog_card4_date_long: '18. November 2023',
+      // Contact 2.0
+      contact_hero_eyebrow: 'Ans Atelier schreiben',
+      contact_hero_title_main: 'Ein Brief an',
+      contact_hero_title_script: 'Denise',
+      contact_hero_lede: 'Keine Bestellscheine, kein Warenkorb. Nur eine offene Tür, ein warmer Kessel und ein stiller Briefkasten. Erzählen Sie mir von einem Stück, teilen Sie eine Erinnerung an Wolle, oder sagen Sie einfach Hallo — ich lese jeden Brief.',
+      contact_form_eyebrow: 'Wenige Worte genügen',
+      contact_form_title: 'Ihren Brief senden',
+      contact_subject_label: 'Anlass Ihres Briefes',
+      contact_subject_hello: 'Einfach Hallo sagen',
+      contact_subject_piece: 'Über ein Stück',
+      contact_subject_commission: 'Eine sanfte Auftragsarbeit',
+      contact_subject_visit: 'Das Atelier besuchen',
+      contact_subject_press: 'Presse & Gespräche',
+      contact_consent: 'Ich vertraue Denise diese wenigen Zeilen an. Sie werden mit Sorgfalt gelesen und niemals weitergegeben.',
+      contact_reply_hint: 'Antworten kommen innerhalb einer Woche — langsam wie die Arbeit selbst.',
+      contact_channels_eyebrow: 'Andere stille Wege',
+      contact_channels_title: 'Das Atelier erreichen',
+      contact_channel_email_label: 'Per E-Mail',
+      contact_channel_email_meta: 'Briefe langsam und mit Bedacht beantwortet.',
+      contact_channel_postal_label: 'Per Post',
+      contact_channel_postal_meta: 'Handgeschriebene Briefe sind stets willkommen.',
+      contact_channel_knitnight_label: 'Strickabende',
+      contact_channel_knitnight_value: 'Jeden zweiten Donnerstag · 19 — 21 Uhr',
+      contact_channel_knitnight_meta: 'Offenes Atelier — bringen Sie Ihre Nadeln oder einfach Ihren Tee.',
+      contact_channel_social_label: 'Stilles Soziales',
+      contact_channel_social_value: 'Pinterest · Ravelry · gelegentlich eine Postkarte',
+      contact_channel_social_meta: 'Keine Algorithmen — nur Maschen.',
+      contact_map_eyebrow: 'Das Atelier finden',
+      contact_map_title_main: 'Eine Tür in',
+      contact_map_title_script: 'Glarus',
+      contact_map_lede: 'Eingebettet zwischen Linth und den Hängen des Glärnisch öffnet das Atelier auf sanfte Verabredung. Klingeln Sie, bevor Sie an der Tür klingeln.',
+      contact_faq_eyebrow: 'Stille Fragen',
+      contact_faq_title: 'Bevor Sie schreiben',
+      contact_faq1_q: 'Verkaufen Sie Stücke aus der Galerie?',
+      contact_faq1_a: 'Nein — die Galerie ist ein Ort des Teilens. Die Stücke bleiben im Atelier oder reisen als Geschenk. Wenn Sie sich in eines verlieben, schreiben Sie mir; vielleicht finden wir einen leisen Weg, es bei Ihnen wohnen zu lassen.',
+      contact_faq2_q: 'Kann ich ein Stück in Auftrag geben?',
+      contact_faq2_a: 'Sanfte, gelegentliche Aufträge sind möglich — eine Taufdecke, ein Hochzeitsschal, ein Erbstück, neu genährt. Erzählen Sie mir Geschichte und Zeitrahmen; ich sage Ihnen, ob die Reihen Platz haben.',
+      contact_faq3_q: 'Darf ich das Atelier besuchen?',
+      contact_faq3_a: 'Ja, auf stille Verabredung. Strickabende sind ohne Anmeldung offen. Für private Besuche schreiben Sie ein paar Tage zuvor — Kessel und Stuhl warten.',
+      contact_faq4_q: 'Wie lange dauert eine Antwort?',
+      contact_faq4_a: 'Innerhalb einer Woche, oft früher. Das Atelier bewegt sich im Tempo der Maschen — niemals sofort, immer aufrichtig.',
+      contact_signature_caption: 'Briefe · von Hand geschrieben, zwischen den Reihen beantwortet',
+      bio_cta_collection: 'Die Sammlung erkunden',
       product_section_story: 'Die Geschichte',
       product_section_specs: 'Technisches Datenblatt',
       product_section_palette: 'Palette',
@@ -1027,7 +1546,7 @@
           '<nav class="dka-breadcrumb dka-reveal" aria-label="Breadcrumb">' +
             '<a href="#0" class="tm-page-link" data-page-no="1" data-i18n="breadcrumb_home">Home</a>' +
             '<span class="sep">›</span>' +
-            '<a href="#0" class="tm-page-link" data-page-no="2" data-i18n="breadcrumb_gallery">Gallery</a>' +
+            '<a href="#0" class="tm-page-link" data-page-no="19" data-i18n="breadcrumb_gallery">Gallery</a>' +
             '<span class="sep">›</span>' +
             '<span class="current"></span>' +
           '</nav>'
@@ -1171,6 +1690,529 @@
         });
       });
     });
+  }
+
+  // -----------------------------------------------------------
+  // Hash-based router — gives every logical page its own URL,
+  // restores native back/forward, makes pages bookmarkable and
+  // shareable. Built on top of the legacy single-page openPage().
+  // -----------------------------------------------------------
+  var SLUG_MAP = {
+    1: 'home',
+    3: 'about',
+    4: 'journal',
+    5: 'contact',
+    6: 'article-resilience',
+    7: 'article-care',
+    8: 'article-horizons',
+    9: 'article-studio',
+    10: 'piece-morning-mist-socks',
+    11: 'piece-alpine-path-socks',
+    12: 'piece-lantern-glow-mitts',
+    13: 'piece-chamomile-comfort-socks',
+    14: 'piece-glaernisch-vista-shawl',
+    15: 'piece-linth-river-wrap',
+    16: 'piece-kloental-breeze-throw',
+    17: 'piece-summit-sunrise-stole',
+    18: 'piece-valley-lights-poncho',
+    19: 'gallery',
+    20: 'piece-heather-valley-socks',
+    21: 'piece-alpine-sunrise-socks',
+    22: 'piece-amber-honey-shawl',
+    23: 'piece-velvet-taupe-wrap',
+    24: 'piece-glacier-teal-drape',
+    25: 'piece-warm-clay-poncho',
+    26: 'piece-rustic-umber-poncho',
+    27: 'piece-cedar-vista-caftan',
+    28: 'piece-amber-ridge-caftan',
+    29: 'piece-alpine-mist-caftan',
+    30: 'atelier',
+    31: 'diary'
+  };
+  var SLUG_TO_NO = {};
+  Object.keys(SLUG_MAP).forEach(function (k) { SLUG_TO_NO[SLUG_MAP[k]] = parseInt(k, 10); });
+
+  var TITLE_MAP = {
+    home: 'Hand-knit wool from the Glarus atelier',
+    gallery: 'Gallery',
+    atelier: 'Atelier',
+    diary: 'Studio diary',
+    about: 'About Denise',
+    journal: 'Journal',
+    contact: 'Contact',
+    'article-resilience': 'Threads of Resilience',
+    'article-care': 'Wool & Wellness Rituals',
+    'article-horizons': 'Contemplating Alpine Horizons',
+    'article-studio': 'Inside the Chalet Studio',
+    'piece-morning-mist-socks': 'Morning Mist Socks',
+    'piece-alpine-path-socks': 'Alpine Path Socks',
+    'piece-lantern-glow-mitts': 'Lantern Glow Mitts',
+    'piece-chamomile-comfort-socks': 'Chamomile Comfort Socks',
+    'piece-glaernisch-vista-shawl': 'Glärnisch Vista Shawl',
+    'piece-linth-river-wrap': 'Linth River Wrap',
+    'piece-kloental-breeze-throw': 'Klöntal Breeze Throw',
+    'piece-summit-sunrise-stole': 'Summit Sunrise Stole',
+    'piece-valley-lights-poncho': 'Valley Lights Poncho',
+    'piece-heather-valley-socks': 'Heather Valley Socks',
+    'piece-alpine-sunrise-socks': 'Alpine Sunrise Socks',
+    'piece-amber-honey-shawl': 'Amber Honey Shawl',
+    'piece-velvet-taupe-wrap': 'Velvet Taupe Wrap',
+    'piece-glacier-teal-drape': 'Glacier Teal Drape',
+    'piece-warm-clay-poncho': 'Warm Clay Poncho',
+    'piece-rustic-umber-poncho': 'Rustic Umber Poncho',
+    'piece-cedar-vista-caftan': 'Cedar Vista Caftan',
+    'piece-amber-ridge-caftan': 'Amber Ridge Caftan',
+    'piece-alpine-mist-caftan': 'Alpine Mist Caftan'
+  };
+  var SITE_TITLE = 'Denise Knit ArtWorks';
+
+  function readHashSlug() {
+    var raw = (window.location.hash || '').replace(/^#\/?/, '');
+    return raw || null;
+  }
+
+  function setDocTitle(slug) {
+    var label = TITLE_MAP[slug];
+    if (!label || slug === 'home') {
+      document.title = SITE_TITLE + ' · ' + (TITLE_MAP.home || 'Home');
+    } else {
+      document.title = label + ' · ' + SITE_TITLE;
+    }
+  }
+
+  function setupRouter() {
+    var routing = false;
+
+    function applyRoute(opts) {
+      opts = opts || {};
+      var slug = readHashSlug();
+      if (!slug) {
+        // No hash → home, but only on the first run (don't disturb user)
+        if (opts.initial) {
+          if (window.openPage) window.openPage(1);
+          if (window.highlightMenu) window.highlightMenu(1);
+          setDocTitle('home');
+        }
+        return;
+      }
+      var no = SLUG_TO_NO[slug];
+      if (typeof no !== 'number') return;
+      routing = true;
+      if (window.openPage) window.openPage(no);
+      if (window.highlightMenu) window.highlightMenu(no);
+      if (window.dkaSyncBottombar) window.dkaSyncBottombar(no);
+      window.scrollTo({ top: 0, behavior: opts.initial ? 'auto' : 'smooth' });
+      setDocTitle(slug);
+      routing = false;
+    }
+    window.dkaApplyRoute = applyRoute;
+
+    // Wrap legacy openPage() so any in-page navigation also pushes a hash
+    var origOpen = window.openPage;
+    if (typeof origOpen === 'function') {
+      window.openPage = function (no) {
+        origOpen.apply(this, arguments);
+        if (routing) return;
+        var slug = SLUG_MAP[no];
+        if (!slug) return;
+        var current = readHashSlug();
+        if (current === slug) return;
+        try {
+          history.pushState({ no: no, slug: slug }, '', '#' + slug);
+        } catch (e) {
+          window.location.hash = '#' + slug;
+        }
+        setDocTitle(slug);
+      };
+    }
+
+    // Native browser back/forward
+    window.addEventListener('hashchange', function () { applyRoute({}); });
+    window.addEventListener('popstate', function () { applyRoute({}); });
+
+    // First navigation: respect the URL the visitor arrived with
+    applyRoute({ initial: true });
+  }
+
+  // Rewrite every page-bound anchor so it carries a real, bookmarkable URL.
+  // Run after enrichGalleryPages / enrichBlogArticles / enrichBlogIndex
+  // because those inject new links into the DOM.
+  function rewriteAllPageLinks() {
+    document.querySelectorAll('a[data-page-no]').forEach(function (el) {
+      var no = parseInt(el.getAttribute('data-page-no'), 10);
+      var slug = SLUG_MAP[no];
+      if (slug) el.setAttribute('href', '#' + slug);
+    });
+    // Sidebar nav links use data-no instead of data-page-no
+    document.querySelectorAll('a[data-no]').forEach(function (el) {
+      var no = parseInt(el.getAttribute('data-no'), 10);
+      var slug = SLUG_MAP[no];
+      if (slug) el.setAttribute('href', '#' + slug);
+    });
+  }
+
+  // -----------------------------------------------------------
+  // Mouse scroll cue — fades out once user scrolls a bit; tap = scroll
+  // -----------------------------------------------------------
+  function setupScrollCue() {
+    var cue = document.querySelector('[data-scroll-cue]');
+    if (!cue) return;
+    cue.addEventListener('click', function (e) {
+      e.preventDefault();
+      var stats = document.querySelector('.dka-hero-stats');
+      if (stats && stats.scrollIntoView) {
+        stats.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else {
+        window.scrollTo({ top: window.scrollY + window.innerHeight * 0.7, behavior: 'smooth' });
+      }
+    });
+    function check() {
+      cue.classList.toggle('is-hidden', window.scrollY > 80);
+    }
+    window.addEventListener('scroll', check, { passive: true });
+    check();
+  }
+
+  // -----------------------------------------------------------
+  // Floating "Write to Denise" — page-link to contact (page 5)
+  //   The .tm-page-link handler wires the navigation. We just
+  //   ensure the floating button is hidden on the contact page.
+  // -----------------------------------------------------------
+  function setupFloatingWrite() {
+    var btn = document.querySelector('.dka-floating-write');
+    if (!btn) return;
+    function sync() {
+      var on5 = (window.currentPage === 5);
+      btn.style.display = on5 ? 'none' : '';
+    }
+    var origOpen = window.openPage;
+    if (typeof origOpen === 'function') {
+      window.openPage = function (no) {
+        origOpen.apply(this, arguments);
+        setTimeout(sync, 60);
+      };
+    }
+    sync();
+  }
+
+  // -----------------------------------------------------------
+  // Lightbox polish — wheel zoom on desktop
+  // -----------------------------------------------------------
+  function setupLightboxWheelZoom() {
+    var box = document.querySelector('.dka-lightbox');
+    if (!box || !window.lightbox) {
+      // lightbox object is local to its IIFE; retry via DOM events
+    }
+    var img = document.querySelector('.dka-lightbox-image');
+    if (!img) return;
+    img.addEventListener('wheel', function (e) {
+      if (!box.classList.contains('is-open')) return;
+      e.preventDefault();
+      var delta = e.deltaY < 0 ? 0.25 : -0.25;
+      // Trigger zoom-in/zoom-out via existing buttons (keeps state consistent)
+      var actionBtn = box.querySelector('[data-action="' + (delta > 0 ? 'zoom-in' : 'zoom-out') + '"]');
+      if (actionBtn) actionBtn.click();
+    }, { passive: false });
+  }
+
+  // -----------------------------------------------------------
+  // Parallax bands — translate background slower than scroll
+  // -----------------------------------------------------------
+  function setupParallax() {
+    var bands = document.querySelectorAll('[data-parallax]');
+    if (!bands.length) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    var rafId = null;
+    function update() {
+      bands.forEach(function (band) {
+        var rect = band.getBoundingClientRect();
+        var bg = band.querySelector('[data-parallax-bg]');
+        if (!bg) return;
+        // Only animate if band is in/near the viewport
+        if (rect.bottom < -200 || rect.top > window.innerHeight + 200) return;
+        var speed = parseFloat(band.getAttribute('data-parallax-speed')) || 0.32;
+        var center = rect.top + rect.height / 2;
+        var offset = (center - window.innerHeight / 2) * -speed;
+        bg.style.transform = 'translate3d(0, ' + offset.toFixed(1) + 'px, 0) scale(1.18)';
+      });
+      rafId = null;
+    }
+    function onScroll() {
+      if (!rafId) rafId = requestAnimationFrame(update);
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', onScroll);
+    update();
+  }
+
+  // -----------------------------------------------------------
+  // Phase α — Gallery 2.0 enhancements
+  //   Palette swatches & category cards as filter triggers
+  //   View toggle (mosaic / uniform grid)
+  //   Card meta injection (palette badge + hours + difficulty)
+  //   Enriched empty-state reset button
+  // -----------------------------------------------------------
+  // Palette colour map — single source of truth
+  var PALETTE_COLOURS = {
+    'amber-honey':     '#d99959',
+    'warm-clay':       '#b96b3c',
+    'velvet-taupe':    '#8b6f5c',
+    'cedar-umber':     '#6b5a3c',
+    'rustic-umber':    '#7a4835',
+    'cozy-cappuccino': '#a08570',
+    'ocean-teal':      '#4a7d83',
+    'misty-teal':      '#7a9396',
+    'morning-mist':    '#c5beb1',
+    'alpine-mist':     '#e9e3d7',
+    'alpine-sunrise':  '#f2a950',
+    'heather-plum':    '#855a78'
+  };
+  var PALETTE_LABELS = {
+    'amber-honey': 'Amber Honey', 'warm-clay': 'Warm Clay', 'velvet-taupe': 'Velvet Taupe',
+    'cedar-umber': 'Cedar Umber', 'rustic-umber': 'Rustic Umber', 'cozy-cappuccino': 'Cozy Cappuccino',
+    'ocean-teal': 'Ocean Teal', 'misty-teal': 'Misty Teal', 'morning-mist': 'Morning Mist',
+    'alpine-mist': 'Alpine Mist', 'alpine-sunrise': 'Alpine Sunrise', 'heather-plum': 'Heather Plum'
+  };
+  // Per-piece meta: hours of slow stitching + difficulty 1..5
+  var PIECE_META = {
+    10: { hours: 12, difficulty: 2 }, 11: { hours: 14, difficulty: 3 }, 12: { hours: 9, difficulty: 2 },
+    13: { hours: 11, difficulty: 3 }, 14: { hours: 48, difficulty: 4 }, 15: { hours: 52, difficulty: 4 },
+    16: { hours: 36, difficulty: 3 }, 17: { hours: 44, difficulty: 4 }, 18: { hours: 58, difficulty: 5 },
+    20: { hours: 13, difficulty: 2 }, 21: { hours: 12, difficulty: 2 }, 22: { hours: 38, difficulty: 4 },
+    23: { hours: 42, difficulty: 4 }, 24: { hours: 44, difficulty: 4 }, 25: { hours: 34, difficulty: 3 },
+    26: { hours: 39, difficulty: 4 }, 27: { hours: 48, difficulty: 5 }, 28: { hours: 52, difficulty: 5 },
+    29: { hours: 50, difficulty: 5 }
+  };
+
+  function setupGalleryEnhancements() {
+    var $page = $('li[data-page-no="19"]');
+    if (!$page.length) return;
+    var $items = $page.find('.tm-extended-gallery-grid .tm-extended-gallery-item');
+    var $filters = $page.find('.tm-extended-gallery-filter-btn');
+    var $paletteSwatches = $page.find('.dka-palette-swatch');
+    var $paletteClear = $page.find('.dka-palette-clear');
+    var $catCards = $page.find('.dka-category-card');
+    var $viewBtns = $page.find('.dka-gallery-view-btn');
+    var $grid = $page.find('.tm-extended-gallery-grid');
+    var $emptyReset = $page.find('[data-empty-reset]');
+
+    // 1. Inject meta badges on every card
+    $items.each(function () {
+      var $item = $(this);
+      if ($item.find('.dka-card-meta').length) return; // idempotent
+      var palette = ($item.attr('data-palette') || '').toLowerCase();
+      var paletteLabel = PALETTE_LABELS[palette] || palette;
+      var paletteColour = PALETTE_COLOURS[palette] || 'var(--dka-accent)';
+      var pageNo = parseInt($item.find('a[data-page-no]').first().attr('data-page-no'), 10);
+      var meta = PIECE_META[pageNo] || { hours: '—', difficulty: 0 };
+      var dotsHtml = '';
+      for (var i = 1; i <= 5; i++) {
+        dotsHtml += '<span' + (i <= meta.difficulty ? ' class="is-on"' : '') + '></span>';
+      }
+      var html = '<div class="dka-card-meta">';
+      if (palette) {
+        html += '<span class="dka-card-palette-badge" style="--swatch:' + paletteColour + '">' + paletteLabel + '</span>';
+      }
+      if (meta.hours && meta.hours !== '—') {
+        html += '<span class="dka-card-hours" title="hours of slow stitching">' + meta.hours + 'h</span>';
+      }
+      if (meta.difficulty) {
+        html += '<span class="dka-card-difficulty" aria-label="difficulty ' + meta.difficulty + '/5">' + dotsHtml + '</span>';
+      }
+      html += '</div>';
+      $item.find('.tm-extended-gallery-info').append(html);
+    });
+
+    // 2. Palette swatches → trigger same filter system as category buttons
+    function activatePalette(palette) {
+      $paletteSwatches.removeClass('is-active');
+      if (palette && palette !== 'all') {
+        $paletteSwatches.filter('[data-palette-filter="' + palette + '"]').addClass('is-active');
+      }
+      // Hide items that don't match the palette
+      $items.each(function () {
+        var p = ($(this).attr('data-palette') || '').toLowerCase();
+        if (!palette || palette === 'all' || p === palette) {
+          $(this).removeClass('dka-palette-hidden');
+        } else {
+          $(this).addClass('dka-palette-hidden');
+        }
+      });
+      // Reset category filter to "all" so palette filter dominates visibly
+      // (we don't fight it, but we mark UI accordingly)
+      checkEmpty();
+    }
+    $paletteSwatches.on('click', function () {
+      var p = $(this).attr('data-palette-filter');
+      if ($(this).hasClass('is-active')) {
+        activatePalette(null); // toggle off
+      } else {
+        activatePalette(p);
+      }
+    });
+    $paletteClear.on('click', function () { activatePalette(null); });
+
+    // 3. Category cards → trigger the standard filter button click
+    $catCards.on('click', function () {
+      var cat = $(this).attr('data-category-filter');
+      $catCards.removeClass('is-active');
+      $(this).addClass('is-active');
+      var $btn = $filters.filter('[data-filter="' + cat + '"]');
+      if ($btn.length) $btn.trigger('click');
+      // Smooth scroll to the grid for context
+      var grid = $grid[0];
+      if (grid && grid.scrollIntoView) {
+        setTimeout(function () { grid.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 80);
+      }
+    });
+    // Reset category card active state when a regular filter button is clicked
+    $filters.on('click', function () {
+      var f = $(this).attr('data-filter');
+      $catCards.removeClass('is-active');
+      if (f && f !== 'all') {
+        $catCards.filter('[data-category-filter="' + f + '"]').addClass('is-active');
+      }
+    });
+
+    // 4. View toggle (mosaic / grid)
+    $viewBtns.on('click', function () {
+      var mode = $(this).attr('data-view') || 'mosaic';
+      $viewBtns.removeClass('is-active');
+      $(this).addClass('is-active');
+      $grid.attr('data-view', mode);
+      try { localStorage.setItem('dka-gallery-view', mode); } catch (e) {}
+    });
+    var storedView = null;
+    try { storedView = localStorage.getItem('dka-gallery-view'); } catch (e) {}
+    if (storedView === 'grid') {
+      $grid.attr('data-view', 'grid');
+      $viewBtns.removeClass('is-active');
+      $viewBtns.filter('[data-view="grid"]').addClass('is-active');
+    }
+
+    // 5. Empty-state reset
+    function checkEmpty() {
+      var visible = $items.filter(function () {
+        return !$(this).hasClass('dka-palette-hidden') && !$(this).hasClass('tm-extended-gallery-item-hidden') && !$(this).hasClass('dka-search-hidden');
+      }).length;
+      $page.find('.tm-extended-gallery-empty').toggleClass('tm-hidden', visible > 0);
+    }
+    $emptyReset.on('click', function () {
+      activatePalette(null);
+      $catCards.removeClass('is-active');
+      $filters.filter('[data-filter="all"]').trigger('click');
+      $page.find('.dka-gallery-search input').val('').trigger('input');
+    });
+  }
+
+  // Hide-by-palette CSS injected once
+  (function injectPaletteHiddenStyle() {
+    if (document.getElementById('dka-palette-hidden-style')) return;
+    var s = document.createElement('style');
+    s.id = 'dka-palette-hidden-style';
+    s.textContent = '.dka-palette-hidden { display: none !important; }';
+    document.head.appendChild(s);
+  })();
+
+  // -----------------------------------------------------------
+  // Studio diary — tag filtering with smooth empty-state
+  // -----------------------------------------------------------
+  function setupDiaryFilters() {
+    var $filters = $('.dka-diary-filter');
+    var $entries = $('.dka-diary-entry');
+    var $empty = $('.dka-diary-empty');
+    if (!$filters.length || !$entries.length) return;
+
+    function apply(tag) {
+      var visible = 0;
+      $entries.each(function () {
+        var tags = ($(this).attr('data-diary-tags') || '').split(/\s+/);
+        if (tag === 'all' || tags.indexOf(tag) !== -1) {
+          $(this).removeClass('dka-diary-entry-hidden');
+          visible++;
+        } else {
+          $(this).addClass('dka-diary-entry-hidden');
+        }
+      });
+      $empty.toggleClass('tm-hidden', visible > 0);
+    }
+    $filters.on('click', function () {
+      var tag = $(this).attr('data-diary-filter') || 'all';
+      $filters.removeClass('is-active');
+      $(this).addClass('is-active');
+      apply(tag);
+    });
+    apply('all');
+  }
+
+  // -----------------------------------------------------------
+  // Rhythm of the studio — analog clock + time-aware status
+  //   Glarus is Europe/Zurich. We use Intl with that timezone
+  //   so the rhythm reflects atelier time, not the visitor's.
+  // -----------------------------------------------------------
+  var RHYTHM_PHASES = [
+    { from: 6,  to: 9,  key: 'rhythm_phase_dawn' },
+    { from: 9,  to: 12, key: 'rhythm_phase_morning' },
+    { from: 12, to: 14, key: 'rhythm_phase_noon' },
+    { from: 14, to: 18, key: 'rhythm_phase_afternoon' },
+    { from: 18, to: 21, key: 'rhythm_phase_evening' },
+    { from: 21, to: 30, key: 'rhythm_phase_night' } // 21–06 wraps via fallback
+  ];
+  function setupRhythm() {
+    var $w = $('.dka-rhythm[data-rhythm]');
+    if (!$w.length) return;
+    var $time = $w.find('[data-rhythm-time]');
+    var $status = $w.find('[data-rhythm-status]');
+    var $hour = $w.find('[data-hand="hour"]');
+    var $min = $w.find('[data-hand="minute"]');
+
+    function getZurichDate() {
+      try {
+        var s = new Intl.DateTimeFormat('en-GB', {
+          timeZone: 'Europe/Zurich',
+          hour12: false,
+          hour: '2-digit',
+          minute: '2-digit',
+          second: '2-digit'
+        }).format(new Date());
+        var parts = s.split(':');
+        return {
+          h: parseInt(parts[0], 10),
+          m: parseInt(parts[1], 10),
+          s: parseInt(parts[2], 10)
+        };
+      } catch (e) {
+        var d = new Date();
+        return { h: d.getHours(), m: d.getMinutes(), s: d.getSeconds() };
+      }
+    }
+    function phaseKey(h) {
+      for (var i = 0; i < RHYTHM_PHASES.length; i++) {
+        var p = RHYTHM_PHASES[i];
+        if (h >= p.from && h < p.to) return p.key;
+      }
+      return 'rhythm_phase_night';
+    }
+    function update() {
+      var t = getZurichDate();
+      var hh = (t.h < 10 ? '0' : '') + t.h;
+      var mm = (t.m < 10 ? '0' : '') + t.m;
+      $time.text(hh + ':' + mm + ' · Glarus');
+      var hourAngle = ((t.h % 12) + t.m / 60) * 30;
+      var minAngle = (t.m + t.s / 60) * 6;
+      $hour.attr('transform', 'rotate(' + hourAngle + ' 60 60)');
+      $min.attr('transform', 'rotate(' + minAngle + ' 60 60)');
+      var key = phaseKey(t.h);
+      if ($status.attr('data-i18n') !== key) {
+        $status.attr('data-i18n', key);
+        if (typeof window.applyTranslations === 'function') {
+          window.applyTranslations(window.currentLang || 'en');
+        }
+      }
+    }
+    update();
+    setInterval(update, 60 * 1000);
   }
 
   // -----------------------------------------------------------
@@ -1772,8 +2814,17 @@
     enrichGalleryPages();
     enrichBlogArticles();
     enrichBlogIndex();
+    setupGalleryEnhancements();
     setupHomeSlider();
+    setupDiaryFilters();
+    setupRhythm();
+    setupParallax();
+    setupScrollCue();
+    setupFloatingWrite();
+    setupLightboxWheelZoom();
     setupReveal();
+    rewriteAllPageLinks();
+    setupRouter();
     setupProductGalleries();
     assignMasonrySizes();
     setupGalleryToolbar();

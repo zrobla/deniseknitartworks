@@ -65,12 +65,12 @@ var translations = {
     "blog_card4_meta": "18 Nov 2023 • Behind the Scenes",
     "blog_card4_title": "Inside the Chalet Studio",
     "blog_card4_excerpt": "Morning rituals, playlists, and dye pots that keep my retirement atelier humming.",
-    "contact_heading": "Contact Me",
-    "contact_name_placeholder": "Name",
-    "contact_email_placeholder": "Email",
-    "contact_message_placeholder": "Message",
-    "contact_send": "Send",
-    "contact_intro": "Any reason to get in touch with me ? Let me know why and let see how we can make it. Cheers!",
+    "contact_heading": "Write to Denise",
+    "contact_name_placeholder": "Your name",
+    "contact_email_placeholder": "Email address",
+    "contact_message_placeholder": "Your message",
+    "contact_send": "Send the letter",
+    "contact_intro": "No order forms, no carts. Just an open door, a warm kettle, and a quiet inbox.",
     "contact_email": "Email: <a href=\"mailto:contact@deniseknitnartworks.ch\" class=\"tm-link-white\">contact@deniseknitnartworks.ch</a>",
     "contact_phone": "Tel: <a href=\"tel:0100200340\" class=\"tm-link-white\">010-020-0340</a>",
     "article1_tag": "Studio Journal",
@@ -159,19 +159,8 @@ var translations = {
     "article_back_to_blog": "&#8592; Back to blog",
     "article_next": "Next article &#8594;",
     "article_previous": "&#8592; Previous article",
-    "footer_copy": "Copyright 2025 Denise Knit ArtWorks Limited. All rights reserved.",
-    "footer_credit": "Designed by <a rel=\"author external noopener\" href=\"https://tech-and-web.com\" target=\"_blank\" class=\"tm-link-white\" title=\"TECH &amp; WEB — full-service web agency, designer of this site\" itemprop=\"creator\" itemscope itemtype=\"https://schema.org/Organization\"><strong itemprop=\"name\">TECH &amp; WEB</strong><meta itemprop=\"url\" content=\"https://tech-and-web.com\" /></a>",
-    "panorama_rotate_left": "Rotate Left",
-    "panorama_rotate_right": "Rotate Right",
-    "panorama_tilt_up": "Tilt Up",
-    "panorama_tilt_down": "Tilt Down",
-    "panorama_zoom_in": "Zoom In",
-    "panorama_zoom_out": "Zoom Out",
-    "panorama_reset": "Reset",
-    "panorama_quick_views": "Quick views",
-    "panorama_view_front": "Front",
-    "panorama_view_angle": "Bias",
-    "panorama_view_detail": "Stitch",
+    "footer_copy": "© 2025 Denise Knit ArtWorks. All rights reserved.",
+    "footer_credit": "Designed by <a rel=\"author external noopener\" href=\"https://tech-and-web.com\" target=\"_blank\" hreflang=\"en\" lang=\"en\" class=\"tm-link-white dka-footer-creator\" title=\"TECH &amp; WEB — full-service web agency · web design, SEO, mobile-first UX, PWA · Designer &amp; developer of deniseknitnartworks.ch\" aria-label=\"Site designed and developed by TECH &amp; WEB — visit tech-and-web.com (opens in a new tab)\" itemprop=\"creator\" itemscope itemtype=\"https://schema.org/Organization\"><strong itemprop=\"name\">TECH &amp; WEB</strong><meta itemprop=\"url\" content=\"https://tech-and-web.com\" /><meta itemprop=\"alternateName\" content=\"tech-and-web.com\" /><meta itemprop=\"alternateName\" content=\"Tech and Web\" /><meta itemprop=\"description\" content=\"Full-service web agency: design, development, SEO, PWA, mobile-first UX, multilingual experiences.\" /><meta itemprop=\"knowsAbout\" content=\"Web design\" /><meta itemprop=\"knowsAbout\" content=\"SEO\" /><meta itemprop=\"knowsAbout\" content=\"Schema.org structured data\" /><meta itemprop=\"knowsAbout\" content=\"Mobile-first UX\" /><meta itemprop=\"knowsAbout\" content=\"Progressive Web Apps\" /></a>",
     "gallery_meta_fiber": "Fiber",
     "gallery_meta_stitches": "Stitchwork",
     "gallery_meta_dimensions": "Dimensions",
@@ -456,12 +445,12 @@ var translations = {
     "blog_card4_meta": "18 nov. 2023 • Dans les coulisses",
     "blog_card4_title": "Dans l’atelier du chalet",
     "blog_card4_excerpt": "Rituels matinaux, playlists et cuves de teinture qui animent mon atelier de retraite.",
-    "contact_heading": "Contactez-moi",
-    "contact_name_placeholder": "Nom",
-    "contact_email_placeholder": "E-mail",
-    "contact_message_placeholder": "Message",
-    "contact_send": "Envoyer",
-    "contact_intro": "Une raison d'entrer en contact avec moi ? Dites m'en un peu plus et voyons comment rendre cela possible. Bien à vous !",
+    "contact_heading": "Écrire à Denise",
+    "contact_name_placeholder": "Votre nom",
+    "contact_email_placeholder": "Adresse e-mail",
+    "contact_message_placeholder": "Votre message",
+    "contact_send": "Envoyer la lettre",
+    "contact_intro": "Pas de bons de commande, pas de panier. Une porte ouverte, une bouilloire chaude, une boîte aux lettres tranquille.",
     "contact_email": "E-mail : <a href=\"mailto:contact@deniseknitnartworks.ch\" class=\"tm-link-white\">contact@deniseknitnartworks.ch</a>",
     "contact_phone": "Tél. : <a href=\"tel:0100200340\" class=\"tm-link-white\">010-020-0340</a>",
     "article1_tag": "Journal d&rsquo;atelier",
@@ -550,19 +539,8 @@ var translations = {
     "article_back_to_blog": "&#8592; Retour au blog",
     "article_next": "Article suivant &#8594;",
     "article_previous": "&#8592; Article précédent",
-    "footer_copy": "© 2025 Denise Knit ArtWorks Limited. Tous droits réservés.",
-    "footer_credit": "Conception : <a rel=\"author external noopener\" href=\"https://tech-and-web.com\" target=\"_blank\" class=\"tm-link-white\" title=\"TECH &amp; WEB — agence web full-service, conceptrice de ce site\" itemprop=\"creator\" itemscope itemtype=\"https://schema.org/Organization\"><strong itemprop=\"name\">TECH &amp; WEB</strong><meta itemprop=\"url\" content=\"https://tech-and-web.com\" /></a>",
-    "panorama_rotate_left": "Pivoter gauche",
-    "panorama_rotate_right": "Pivoter droite",
-    "panorama_tilt_up": "Incliner haut",
-    "panorama_tilt_down": "Incliner bas",
-    "panorama_zoom_in": "Zoom avant",
-    "panorama_zoom_out": "Zoom arrière",
-    "panorama_reset": "Réinitialiser",
-    "panorama_quick_views": "Vues rapides",
-    "panorama_view_front": "Face",
-    "panorama_view_angle": "Biais",
-    "panorama_view_detail": "Point",
+    "footer_copy": "© 2025 Denise Knit ArtWorks. Tous droits réservés.",
+    "footer_credit": "Conception : <a rel=\"author external noopener\" href=\"https://tech-and-web.com\" target=\"_blank\" hreflang=\"fr\" lang=\"fr\" class=\"tm-link-white dka-footer-creator\" title=\"TECH &amp; WEB — agence web full-service · webdesign, SEO, UX mobile-first, PWA · Conceptrice et développeuse de deniseknitnartworks.ch\" aria-label=\"Site conçu et développé par TECH &amp; WEB — visiter tech-and-web.com (ouvre dans un nouvel onglet)\" itemprop=\"creator\" itemscope itemtype=\"https://schema.org/Organization\"><strong itemprop=\"name\">TECH &amp; WEB</strong><meta itemprop=\"url\" content=\"https://tech-and-web.com\" /><meta itemprop=\"alternateName\" content=\"tech-and-web.com\" /><meta itemprop=\"alternateName\" content=\"Tech and Web\" /><meta itemprop=\"description\" content=\"Agence web full-service : design, développement, SEO, PWA, UX mobile-first, expériences multilingues.\" /><meta itemprop=\"knowsAbout\" content=\"Webdesign\" /><meta itemprop=\"knowsAbout\" content=\"SEO\" /><meta itemprop=\"knowsAbout\" content=\"Données structurées Schema.org\" /><meta itemprop=\"knowsAbout\" content=\"UX mobile-first\" /><meta itemprop=\"knowsAbout\" content=\"Progressive Web Apps\" /></a>",
     "gallery_meta_fiber": "Fibre",
     "gallery_meta_stitches": "Points",
     "gallery_meta_dimensions": "Dimensions",
@@ -847,12 +825,12 @@ var translations = {
     "blog_card4_meta": "18. Nov. 2023 • Hinter den Kulissen",
     "blog_card4_title": "Im Chalet-Atelier",
     "blog_card4_excerpt": "Morgenrituale, Playlists und Färbetöpfe, die mein Atelier im Ruhestand lebendig halten.",
-    "contact_heading": "Kontakt mit mir",
-    "contact_name_placeholder": "Name",
-    "contact_email_placeholder": "E-Mail",
-    "contact_message_placeholder": "Nachricht",
-    "contact_send": "Senden",
-    "contact_intro": "Jeder Grund, mich zu kontaktieren? Sag mir doch kurz Bescheid und wir finden gemeinsam eine Lösung. Herzliche Grüße!",
+    "contact_heading": "An Denise schreiben",
+    "contact_name_placeholder": "Ihr Name",
+    "contact_email_placeholder": "E-Mail-Adresse",
+    "contact_message_placeholder": "Ihre Nachricht",
+    "contact_send": "Den Brief senden",
+    "contact_intro": "Keine Bestellscheine, kein Warenkorb. Eine offene Tür, ein warmer Kessel und ein stiller Briefkasten.",
     "contact_email": "E-Mail: <a href=\"mailto:contact@deniseknitnartworks.ch\" class=\"tm-link-white\">contact@deniseknitnartworks.ch</a>",
     "contact_phone": "Tel.: <a href=\"tel:0100200340\" class=\"tm-link-white\">010-020-0340</a>",
     "article1_tag": "Atelierjournal",
@@ -941,19 +919,8 @@ var translations = {
     "article_back_to_blog": "&#8592; Zurück zum Blog",
     "article_next": "Nächster Artikel &#8594;",
     "article_previous": "&#8592; Vorheriger Artikel",
-    "footer_copy": "© 2025 Denise Knit ArtWorks Limited. Alle Rechte vorbehalten.",
-    "footer_credit": "Design von <a rel=\"author external noopener\" href=\"https://tech-and-web.com\" target=\"_blank\" class=\"tm-link-white\" title=\"TECH &amp; WEB — Full-Service-Webagentur, Gestalterin dieser Seite\" itemprop=\"creator\" itemscope itemtype=\"https://schema.org/Organization\"><strong itemprop=\"name\">TECH &amp; WEB</strong><meta itemprop=\"url\" content=\"https://tech-and-web.com\" /></a>",
-    "panorama_rotate_left": "Nach links drehen",
-    "panorama_rotate_right": "Nach rechts drehen",
-    "panorama_tilt_up": "Nach oben kippen",
-    "panorama_tilt_down": "Nach unten kippen",
-    "panorama_zoom_in": "Heranzoomen",
-    "panorama_zoom_out": "Herauszoomen",
-    "panorama_reset": "Zurücksetzen",
-    "panorama_quick_views": "Schnelle Ansichten",
-    "panorama_view_front": "Vorne",
-    "panorama_view_angle": "Schräg",
-    "panorama_view_detail": "Masche",
+    "footer_copy": "© 2025 Denise Knit ArtWorks. Alle Rechte vorbehalten.",
+    "footer_credit": "Design von <a rel=\"author external noopener\" href=\"https://tech-and-web.com\" target=\"_blank\" hreflang=\"de\" lang=\"de\" class=\"tm-link-white dka-footer-creator\" title=\"TECH &amp; WEB — Full-Service-Webagentur · Webdesign, SEO, Mobile-First-UX, PWA · Gestalterin und Entwicklerin von deniseknitnartworks.ch\" aria-label=\"Seite gestaltet und entwickelt von TECH &amp; WEB — tech-and-web.com besuchen (öffnet in einem neuen Tab)\" itemprop=\"creator\" itemscope itemtype=\"https://schema.org/Organization\"><strong itemprop=\"name\">TECH &amp; WEB</strong><meta itemprop=\"url\" content=\"https://tech-and-web.com\" /><meta itemprop=\"alternateName\" content=\"tech-and-web.com\" /><meta itemprop=\"alternateName\" content=\"Tech and Web\" /><meta itemprop=\"description\" content=\"Full-Service-Webagentur: Design, Entwicklung, SEO, PWA, Mobile-First-UX, mehrsprachige Erlebnisse.\" /><meta itemprop=\"knowsAbout\" content=\"Webdesign\" /><meta itemprop=\"knowsAbout\" content=\"SEO\" /><meta itemprop=\"knowsAbout\" content=\"Schema.org strukturierte Daten\" /><meta itemprop=\"knowsAbout\" content=\"Mobile-First-UX\" /><meta itemprop=\"knowsAbout\" content=\"Progressive Web Apps\" /></a>",
     "gallery_meta_fiber": "Faser",
     "gallery_meta_stitches": "Struktur",
     "gallery_meta_dimensions": "Maße",
@@ -1252,12 +1219,14 @@ function closeMenu() {
 
 function highlightMenu(no) {
   var menuNo = no;
-  if(no === 30) {
+  if(no === 30 || no === 31) {
     menuNo = 30;
   } else if(no >= 6 && no <= 9) {
     menuNo = 4;
   } else if (no >= 10 && no <= 29) {
-    menuNo = 2;
+    menuNo = 19;
+  } else if (no === 2) {
+    menuNo = 19;
   }
   $(".navbar .navbar-nav > .nav-item").removeClass('selected');
   $(".navbar .navbar-nav > .nav-item > .nav-link[data-no='" + menuNo + "']").parent().addClass('selected');
@@ -1331,7 +1300,8 @@ $(window).on('load', function() {
 });
 
 jQuery(function() {
-    $('.tm-page-link').on('click', function(){
+    $('.tm-page-link').on('click', function(e){
+      e.preventDefault();
       var pageNo = $(this).data('page-no');
       openPage(pageNo);
       highlightMenu(pageNo);
@@ -1356,6 +1326,7 @@ jQuery(function() {
     });
 
     $(".navbar .navbar-nav > .nav-item > a.nav-link").on('click', function(e){
+      e.preventDefault();
       var pageNo = $(this).data('no');
 
       openPage(pageNo);
@@ -1488,48 +1459,6 @@ jQuery(function() {
 
     updateExtendedGallery();
     window.tmRefreshExtendedGallery = updateExtendedGallery;
-
-    $('.tm-panorama-control').on('click', function(){
-      var target = $(this).attr('data-target');
-      var action = $(this).attr('data-action');
-      var state = getPanoramaState(target);
-      if(action === 'rotate-left') {
-        state.angleY = Math.max(-40, state.angleY - 8);
-      } else if(action === 'rotate-right') {
-        state.angleY = Math.min(40, state.angleY + 8);
-      } else if(action === 'tilt-up') {
-        state.angleX = Math.max(-25, state.angleX - 6);
-      } else if(action === 'tilt-down') {
-        state.angleX = Math.min(25, state.angleX + 6);
-      } else if(action === 'zoom-in') {
-        state.zoom = Math.min(1.5, +(state.zoom + 0.1).toFixed(2));
-      } else if(action === 'zoom-out') {
-        state.zoom = Math.max(0.75, +(state.zoom - 0.1).toFixed(2));
-      } else if(action === 'reset') {
-        state.angleX = 0;
-        state.angleY = 0;
-        state.zoom = 1;
-      }
-      applyPanoramaTransform(target);
-    });
-
-    $('.tm-panorama-shortcut').on('click', function(){
-      var target = $(this).attr('data-target');
-      var state = getPanoramaState(target);
-      var angleX = $(this).attr('data-angle-x');
-      var angleY = $(this).attr('data-angle-y');
-      var zoom = $(this).attr('data-zoom');
-      if(angleX !== undefined) {
-        state.angleX = parseFloat(angleX);
-      }
-      if(angleY !== undefined) {
-        state.angleY = parseFloat(angleY);
-      }
-      if(zoom !== undefined) {
-        state.zoom = parseFloat(zoom);
-      }
-      applyPanoramaTransform(target);
-    });
 
     $("html").click(function(e) {
       closeMenu();
