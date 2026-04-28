@@ -996,6 +996,39 @@
   }
 
   // -----------------------------------------------------------
+  // Responsive images — wrap every <img src="img/X.jpg"> in
+  // <picture> with a WebP source + 3 sizes (480/960/1440).
+  // Idempotent: safe to call after each JS enrichment.
+  // -----------------------------------------------------------
+  var RESPONSIVE_IMG_WIDTHS = [480, 960, 1440];
+  var RESPONSIVE_IMG_SIZES = '(min-width: 1200px) 1200px, (min-width: 768px) 75vw, 100vw';
+  var RESPONSIVE_IMG_RE = /^img\/(?!webp\/)([^/]+?)\.(jpe?g|png)$/i;
+  function setupResponsiveImages(scope) {
+    var root = scope || document;
+    var imgs = root.querySelectorAll('img[src^="img/"]:not([data-no-responsive])');
+    imgs.forEach(function (img) {
+      if (img.parentElement && img.parentElement.tagName === 'PICTURE') return;
+      var src = img.getAttribute('src');
+      if (!src) return;
+      var m = src.match(RESPONSIVE_IMG_RE);
+      if (!m) return;
+      var name = m[1];
+      var picture = document.createElement('picture');
+      var source = document.createElement('source');
+      source.type = 'image/webp';
+      source.srcset = RESPONSIVE_IMG_WIDTHS
+        .map(function (w) { return 'img/webp/' + name + '-' + w + '.webp ' + w + 'w'; })
+        .join(', ');
+      source.sizes = RESPONSIVE_IMG_SIZES;
+      picture.appendChild(source);
+      img.parentNode.insertBefore(picture, img);
+      picture.appendChild(img);
+    });
+  }
+  // Expose for use after dynamic injections
+  window.dkaWrapResponsive = setupResponsiveImages;
+
+  // -----------------------------------------------------------
   // Lightbox
   // -----------------------------------------------------------
   var lightbox = {
@@ -2201,8 +2234,14 @@
       $time.text(hh + ':' + mm + ' · Glarus');
       var hourAngle = ((t.h % 12) + t.m / 60) * 30;
       var minAngle = (t.m + t.s / 60) * 6;
-      $hour.attr('transform', 'rotate(' + hourAngle + ' 60 60)');
-      $min.attr('transform', 'rotate(' + minAngle + ' 60 60)');
+      // Use CSS transform (with transform-origin from CSS) for reliable
+      // animation across browsers — SVG attribute transform does not
+      // play well with CSS `transition: transform`.
+      $hour.css('transform', 'rotate(' + hourAngle + 'deg)');
+      $min.css('transform', 'rotate(' + minAngle + 'deg)');
+      // Clear the SVG attribute so it does not fight with the CSS rule.
+      $hour.removeAttr('transform');
+      $min.removeAttr('transform');
       var key = phaseKey(t.h);
       if ($status.attr('data-i18n') !== key) {
         $status.attr('data-i18n', key);
@@ -2212,7 +2251,9 @@
       }
     }
     update();
-    setInterval(update, 60 * 1000);
+    // Tick every 30s — minute hand uses sub-minute precision (seconds),
+    // so a 30s cadence keeps the dial visibly alive without burning CPU.
+    setInterval(update, 30 * 1000);
   }
 
   // -----------------------------------------------------------
@@ -2823,6 +2864,8 @@
     setupFloatingWrite();
     setupLightboxWheelZoom();
     setupReveal();
+    // Wrap any <img> injected by enrichments into <picture>/WebP
+    setupResponsiveImages();
     rewriteAllPageLinks();
     setupRouter();
     setupProductGalleries();

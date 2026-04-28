@@ -448,6 +448,11 @@ body::before {
   border: 1px solid var(--dka-border);
   display: block;
 }
+/* <picture> wrappers (added for WebP srcset) must be transparent so the
+   inner <img> stays the direct child of grids/flex containers. Without
+   this, grid-placement rules targeting .dka-hero-img-1/2a/2b on <img>
+   stop applying because <picture> becomes the grid item. */
+picture { display: contents; }
 .dka-hero-media .dka-hero-img-1 {
   grid-column: 1;
   grid-row: 1 / span 2;
@@ -1395,7 +1400,8 @@ body::before {
   stroke: var(--dka-cream);
   stroke-linecap: round;
   transform-origin: 60px 60px;
-  transition: transform 0.6s var(--dka-easing);
+  transition: transform 0.8s var(--dka-easing-elegant);
+  will-change: transform;
 }
 .dka-rhythm-hand-hour { stroke-width: 2.5; }
 .dka-rhythm-hand-minute {
@@ -5953,4 +5959,1202 @@ a.dka-contact-channel-value:focus-visible {
   .dka-contact-submit { padding: 9px 14px; font-size: 0.7rem; }
   .dka-floating-btn { width: 36px; height: 36px; }
   .dka-floating-btn svg { width: 14px; height: 14px; }
+}
+
+/* ============================================================
+   MOBILE PRODUCT-DETAIL REFINEMENTS (pages 10–29)
+   Strategy:
+     · Strip nested padding to give the photo + text more room
+     · Drop the dark double-frame, let the page breathe
+     · Compact meta-list & palette chips to 2-column hairline pills
+     · Stack pagination, full-width tap targets
+     · Reorder the injected .dka-product-extras for readability
+   ============================================================ */
+@media (max-width: 767px) {
+  /* 1. Page padding — tight but airy enough for thumb tap */
+  .tm-gallery-page { padding-left: 12px !important; padding-right: 12px !important; }
+  .tm-gallery-page .page-width-2 { padding-left: 0; padding-right: 0; }
+  .tm-gallery-shell { gap: 18px !important; }
+
+  /* 2. Strip the dark double-frame around the viewer on phones — the
+        panorama stage already has its own background. */
+  .tm-gallery-page .tm-gallery-viewer {
+    grid-template-columns: 1fr !important;
+    background: transparent !important;
+    padding: 0 !important;
+    gap: 16px !important;
+  }
+
+  /* 3. Panorama stage — slimmer padding + softer inner border */
+  .tm-gallery-page .tm-panorama-stage {
+    padding: 12px !important;
+    gap: 10px;
+    border-radius: var(--dka-radius);
+    border-color: rgba(245, 239, 228, 0.08);
+  }
+  .tm-gallery-page .tm-panorama-frame {
+    border-radius: 10px;
+    box-shadow: 0 14px 32px -18px rgba(0, 0, 0, 0.55);
+  }
+  .tm-gallery-page .tm-panorama-img {
+    /* Drop the heavy drop-shadow on small viewports; saves paint cost too */
+    filter: none;
+  }
+
+  /* 4. Sidebar — tighter padding, body-sized typography */
+  .tm-gallery-page .tm-gallery-sidebar {
+    padding: 18px 16px !important;
+    gap: 14px !important;
+    border-radius: var(--dka-radius);
+  }
+  .tm-gallery-page .tm-gallery-sidebar h2 {
+    font-size: clamp(1.35rem, 5.5vw, 1.6rem) !important;
+    line-height: 1.18;
+    margin-bottom: 4px !important;
+  }
+  .tm-gallery-page .tm-gallery-intro {
+    font-size: 0.92rem;
+    line-height: 1.55;
+    color: var(--dka-ink-soft);
+  }
+
+  /* 5. Meta-list: 2-column compact grid (label + value side-by-side
+        ladder), borders softened to hairlines. */
+  .tm-gallery-page .tm-gallery-meta { gap: 0; }
+  .tm-gallery-page .tm-gallery-meta li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(245, 239, 228, 0.08);
+  }
+  .tm-gallery-page .tm-gallery-meta li:last-child { border-bottom: 0; }
+  .tm-gallery-page .tm-meta-label {
+    font-size: 0.66rem;
+    letter-spacing: 0.18em;
+    color: var(--dka-ink-mute);
+  }
+  .tm-gallery-page .tm-meta-value {
+    font-size: 0.88rem;
+    line-height: 1.5;
+    text-align: left;
+    color: var(--dka-cream);
+  }
+
+  /* 6. Palette: hairline micro-chips, multi-row natural flow.
+        No min-width — let chips shrink to label width. */
+  .tm-gallery-page .tm-color-chips { gap: 6px; }
+  .tm-gallery-page .tm-color-chip {
+    min-width: 0;
+    padding: 5px 10px;
+    font-size: 0.66rem;
+    letter-spacing: 0.1em;
+    border-radius: 999px;
+  }
+
+  /* 7. Related (single inline CTA) on the sidebar */
+  .tm-gallery-page .tm-gallery-related h3 { font-size: 0.66rem; }
+  .tm-gallery-page .tm-related-link { font-size: 0.78rem; letter-spacing: 0.1em; }
+
+  /* 8. Article pagination — stacked, full-width, fine pills */
+  .tm-gallery-page .tm-article-pagination {
+    flex-direction: column;
+    gap: 8px !important;
+    align-items: stretch !important;
+    margin-top: 18px;
+    border-top: 1px solid rgba(245, 239, 228, 0.06);
+    padding-top: 14px;
+  }
+  .tm-gallery-page .tm-article-nav {
+    text-align: center;
+    padding: 9px 14px !important;
+    font-size: 0.72rem !important;
+    letter-spacing: 0.08em !important;
+    border-radius: 999px;
+  }
+
+  /* 9. Injected .dka-product-extras section
+        Reorder: put the "More views" thumb strip FIRST (so phone users
+        see more imagery without scrolling past dense meta) → currently
+        it's already first via the JS — keep behavior, just slim the
+        accordion frames. */
+  .dka-product-extras { gap: 14px !important; margin-top: 18px !important; }
+  .dka-product-extras .dka-product-meta-card {
+    border-radius: var(--dka-radius);
+  }
+  .dka-product-extras .dka-product-meta-card h3 {
+    padding: 13px 14px !important;
+    font-size: 0.7rem !important;
+    letter-spacing: 0.18em;
+  }
+  .dka-product-extras .dka-product-meta-card.is-open > *:not(h3) {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 14px;
+  }
+
+  /* 10. Sister-pieces & related-articles cards — compact stacked rows
+         instead of the desktop grid (better legibility on phone). */
+  .dka-product-extras .dka-related-articles,
+  .dka-product-extras .dka-related-pieces {
+    grid-template-columns: 1fr !important;
+    gap: 6px !important;
+  }
+  .dka-product-extras .dka-related-articles a,
+  .dka-product-extras .dka-related-pieces a {
+    padding: 10px 8px;
+    gap: 12px;
+  }
+  .dka-product-extras .dka-related-thumb {
+    width: 56px !important;
+    height: 56px !important;
+    border-radius: 8px;
+    flex-shrink: 0;
+  }
+  .dka-product-extras .dka-related-title {
+    font-size: 0.92rem;
+    line-height: 1.3;
+  }
+  .dka-product-extras .dka-related-eyebrow {
+    font-size: 0.6rem;
+    letter-spacing: 0.16em;
+  }
+
+  /* 11. More-views thumbnails — slightly smaller, swipeable strip */
+  .dka-product-extras .dka-product-thumbs {
+    gap: 8px !important;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+  }
+  .dka-product-extras .dka-product-thumbs > .dka-product-extra-photo {
+    flex: 0 0 96px !important;
+    height: 122px !important;
+    scroll-snap-align: start;
+    border-radius: 8px;
+  }
+
+  /* 12. Product quote on mobile — fine italic, no heavy gold bar */
+  .dka-product-quote {
+    border-left-width: 2px;
+    padding: 10px 14px !important;
+    font-size: 1.05rem !important;
+    line-height: 1.4;
+  }
+  .dka-product-quote-author { font-size: 0.62rem; letter-spacing: 0.18em; }
+
+  /* 13. Hide the heavy gallery-card flourish on phones */
+  .dka-product-meta-card::before { display: none !important; }
+}
+
+/* Even tighter on very small phones */
+@media (max-width: 380px) {
+  .tm-gallery-page .tm-panorama-stage { padding: 10px !important; }
+  .tm-gallery-page .tm-gallery-sidebar { padding: 16px 14px !important; }
+  .tm-gallery-page .tm-gallery-sidebar h2 { font-size: 1.3rem !important; }
+  .dka-product-extras .dka-product-thumbs > .dka-product-extra-photo {
+    flex: 0 0 84px !important;
+    height: 108px !important;
+  }
+  .dka-product-extras .dka-related-thumb {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+
+/* ============================================================
+   MOBILE HOME-SLIDER REFINEMENTS (slides 1-3)
+   Strategy:
+     · Switch hero from 2-col grid to single column (image first, text below)
+     · Reduce title size + drop the long paragraph (keep eyebrow · title · lede · CTA · signature)
+     · Cap media height — no more 50vh slabs
+     · Show only 1 lead image per slide (hide secondary tiles)
+     · Tighten outer padding so the slide breathes
+   ============================================================ */
+@media (max-width: 767px) {
+  /* Outer slide padding — let the hero touch closer to the edge */
+  .cd-hero-slider > li.px-3 { padding-left: 12px !important; padding-right: 12px !important; }
+  .dka-home-slider { gap: 14px; }
+
+  /* Hero: single column, photo on top, content below */
+  .dka-hero {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto auto;
+    gap: 18px !important;
+    padding: 22px 18px !important;
+    border-radius: var(--dka-radius);
+  }
+  .dka-hero-content {
+    order: 2;
+    max-width: 100%;
+    gap: 12px;
+  }
+  .dka-hero-media {
+    order: 1;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr !important;
+    aspect-ratio: 16 / 11;
+    height: auto !important;
+    min-height: 0 !important;
+    gap: 0 !important;
+  }
+  /* Single image leads — hide secondary tiles for visual quiet */
+  .dka-hero-media .dka-hero-img-2a,
+  .dka-hero-media .dka-hero-img-2b,
+  .dka-hero-media .dka-hero-img-1a,
+  .dka-hero-media .dka-hero-img-1b,
+  .dka-hero-media .dka-hero-img-2-full {
+    display: none !important;
+  }
+  .dka-hero-media .dka-hero-img-1,
+  .dka-hero-media--single img {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--dka-radius);
+  }
+  /* Slide 2 single-image override — drop the tall min-height */
+  .dka-hero-media.dka-hero-media--single {
+    min-height: 0 !important;
+    aspect-ratio: 16 / 11;
+  }
+
+  /* Typography — slide titles smaller, lede tightened, paragraph hidden */
+  .dka-hero-eyebrow {
+    font-size: 0.62rem;
+    letter-spacing: 0.18em;
+    gap: 8px;
+  }
+  .dka-hero-eyebrow::before { width: 22px; }
+  .dka-hero-title {
+    font-size: clamp(1.7rem, 7vw, 2.2rem) !important;
+    line-height: 1.1;
+  }
+  .dka-hero-title em { font-size: 1.05em; transform: translateY(4px); }
+  .dka-hero-lede {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  /* The long "paragraph" line is redundant on a slide — hide it on mobile */
+  .dka-hero-paragraph { display: none; }
+
+  /* Signature — single line, fine */
+  .dka-hero-signature { gap: 10px; margin-top: 8px; }
+  .dka-hero-signature-name { font-size: 1.4rem; }
+  .dka-hero-signature small {
+    font-size: 0.6rem;
+    letter-spacing: 0.14em;
+  }
+
+  /* Slider chrome — smaller dots row, no margin-top hack */
+  .dka-home-dots { gap: 10px; margin-top: 12px; }
+  .dka-home-dot { width: 28px; height: 28px; }
+  .dka-home-dot::before { width: 6px; height: 6px; }
+}
+
+/* Tighter still on small phones */
+@media (max-width: 380px) {
+  .dka-hero {
+    padding: 18px 14px !important;
+    gap: 14px !important;
+  }
+  .dka-hero-title { font-size: 1.55rem !important; }
+  .dka-hero-lede { font-size: 0.9rem; }
+  .dka-hero-media,
+  .dka-hero-media.dka-hero-media--single {
+    aspect-ratio: 4 / 3;
+  }
+  .dka-hero-signature-name { font-size: 1.25rem; }
+  .dka-home-dots { gap: 8px; margin-top: 10px; }
+}
+
+/* ============================================================
+   MOBILE GALLERY-19 REFINEMENTS (extended grid + toolbar + filters)
+   Strategy:
+     · Override the 991px tap-target rule so filter chips stay slim
+     · Switch masonry to 2-column on mobile (more pieces visible at a glance)
+     · Drop sticky toolbar/filters — saves vertical real estate
+     · Tighter card figure + info, hide quickview (touch users tap card)
+     · Slim search input
+   ============================================================ */
+@media (max-width: 767px) {
+  /* 1. Override the broad ≤991px "tap target" rule for gallery filter
+        chips — keep them slim. (Tap target is preserved via padding +
+        line-height; visual height stays compact.) */
+  .dka-gallery-page .tm-extended-gallery-filter-btn {
+    min-height: 0 !important;
+    padding: 6px 12px !important;
+    font-size: 0.7rem !important;
+    letter-spacing: 0.1em !important;
+    line-height: 1.5;
+  }
+  .dka-gallery-page .tm-extended-gallery-filters {
+    gap: 6px !important;
+    flex-wrap: wrap;
+  }
+
+  /* 2. Drop the sticky toolbar + filters — too noisy on phone, eats
+        the top of the viewport. Let them scroll with the page. */
+  .dka-gallery-page .tm-extended-gallery-shell .dka-gallery-toolbar,
+  .dka-gallery-page .tm-extended-gallery-shell .tm-extended-gallery-filters {
+    position: static !important;
+    background: transparent !important;
+    backdrop-filter: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    top: auto !important;
+  }
+
+  /* 3. 2-column mosaic — denser glance, much less scroll-fatigue */
+  .dka-gallery-page .tm-extended-gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-auto-rows: 6px !important;
+    gap: 10px !important;
+  }
+  .dka-gallery-page .tm-extended-gallery-item.tall { grid-row: span 38; }
+  .dka-gallery-page .tm-extended-gallery-item.medium { grid-row: span 32; }
+  .dka-gallery-page .tm-extended-gallery-item.short { grid-row: span 26; }
+
+  /* 4. Tighter card chrome */
+  .dka-gallery-page .tm-extended-gallery-figure {
+    height: calc(100% - 64px);
+    min-height: 140px;
+  }
+  .dka-gallery-page .tm-extended-gallery-info {
+    padding: 9px 11px !important;
+  }
+  .dka-gallery-page .tm-extended-gallery-category {
+    font-size: 0.55rem !important;
+    padding: 2px 7px !important;
+    letter-spacing: 0.14em !important;
+  }
+  .dka-gallery-page .tm-extended-gallery-title {
+    font-size: 0.88rem !important;
+    line-height: 1.22 !important;
+    margin-top: 6px;
+  }
+
+  /* 5. Hide quickview button on touch — tapping the card already
+        navigates to the product page */
+  .dka-gallery-page .dka-gallery-quickview-btn {
+    display: none !important;
+  }
+
+  /* 6. Search input — slimmer */
+  .dka-gallery-page .dka-gallery-search input {
+    padding: 10px 16px 10px 38px !important;
+    font-size: 0.88rem;
+  }
+  .dka-gallery-page .dka-gallery-search svg {
+    left: 13px !important;
+    width: 16px;
+    height: 16px;
+  }
+
+  /* 7. Quickbrowse palette strip — tighter, less vertical space */
+  .dka-gallery-page .dka-gallery-quickbrowse {
+    padding: 2px 0 !important;
+  }
+  .dka-gallery-page .dka-palette-swatches {
+    gap: 6px;
+  }
+  .dka-gallery-page .dka-palette-swatch {
+    width: 13px;
+    height: 13px;
+  }
+
+  /* 8. Empty state — softer */
+  .dka-gallery-page .tm-extended-gallery-empty {
+    padding: 30px 14px;
+  }
+  .dka-gallery-page .tm-extended-gallery-empty p {
+    font-size: 0.95rem;
+  }
+  .dka-gallery-page .dka-empty-mark {
+    width: 44px;
+    height: 44px;
+    font-size: 1.4rem;
+  }
+}
+
+/* Even tighter on 360px and below */
+@media (max-width: 380px) {
+  .dka-gallery-page .tm-extended-gallery-shell {
+    padding: 16px 10px !important;
+    gap: 12px !important;
+  }
+  .dka-gallery-page .tm-extended-gallery-grid {
+    gap: 8px !important;
+  }
+  .dka-gallery-page .tm-extended-gallery-info {
+    padding: 7px 9px !important;
+  }
+  .dka-gallery-page .tm-extended-gallery-title {
+    font-size: 0.82rem !important;
+  }
+  .dka-gallery-page .tm-extended-gallery-filter-btn {
+    padding: 5px 10px !important;
+    font-size: 0.66rem !important;
+  }
+}
+
+/* ============================================================
+   MOBILE BIO (page 3) REFINEMENTS
+   Strategy:
+     · Drop justify+hyphens, soften drop-cap → cleaner narrow text
+     · Chapter media 4/3 instead of 4/5 → less tall, more text visible
+     · Tighter section gaps + manifesto padding
+     · Smaller hero name on tiny phones
+   ============================================================ */
+@media (max-width: 767px) {
+  /* Section rhythm — closer blocks, less scroll fatigue */
+  .dka-bio-page > div { gap: 24px !important; }
+  .dka-bio-page { padding: 4px 0 18px; }
+
+  /* Hero — smaller portrait, tighter text */
+  .dka-bio-hero { gap: 16px !important; padding: 8px 4px 4px !important; }
+  .dka-bio-hero-portrait {
+    width: clamp(160px, 50vw, 220px) !important;
+    aspect-ratio: 4 / 5;
+  }
+  .dka-bio-hero-name {
+    font-size: clamp(1.9rem, 8vw, 2.5rem) !important;
+    margin: 4px 0 0;
+  }
+  .dka-bio-hero-script { font-size: 1.3rem; }
+  .dka-bio-hero-lede {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-top: 4px;
+  }
+
+  /* Manifesto — readable on narrow column (no justify, lighter drop-cap) */
+  .dka-bio-manifesto {
+    padding: 22px 18px !important;
+    border-radius: var(--dka-radius);
+  }
+  .dka-bio-manifesto-text {
+    font-size: 1rem !important;
+    line-height: 1.6;
+    text-align: left;
+    hyphens: manual;
+  }
+  .dka-bio-manifesto-text::first-letter {
+    font-size: 2.6em;
+    line-height: 0.9;
+    padding-right: 0.08em;
+  }
+  /* Smaller, less-busy corner flourishes on phone */
+  .dka-bio-corner {
+    width: 14px;
+    height: 14px;
+  }
+  .dka-bio-corner.top-left,
+  .dka-bio-corner.top-right { top: 6px; }
+  .dka-bio-corner.bottom-left,
+  .dka-bio-corner.bottom-right { bottom: 6px; }
+  .dka-bio-corner.top-left,
+  .dka-bio-corner.bottom-left { left: 6px; }
+  .dka-bio-corner.top-right,
+  .dka-bio-corner.bottom-right { right: 6px; }
+
+  /* Chapters — softer aspect ratio, tighter gap */
+  .dka-bio-chapter { gap: 14px !important; }
+  .dka-bio-chapter-media {
+    aspect-ratio: 4 / 3;
+    border-radius: var(--dka-radius);
+  }
+  .dka-bio-chapter-title {
+    font-size: clamp(1.4rem, 5.5vw, 1.7rem) !important;
+    line-height: 1.18;
+  }
+  .dka-bio-chapter-text {
+    gap: 10px;
+    padding: 0;
+  }
+  .dka-bio-chapter-text p {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  /* Pull quotes — compact, no heavy gold lines */
+  .dka-bio-quote {
+    padding: 8px 14px !important;
+    margin: 4px auto !important;
+  }
+  .dka-bio-quote-mark { font-size: 2.4rem; margin-bottom: 0; }
+  .dka-bio-quote p {
+    font-size: clamp(1.3rem, 6vw, 1.7rem) !important;
+    line-height: 1.25;
+  }
+  .dka-bio-quote cite {
+    font-size: 0.62rem;
+    letter-spacing: 0.18em;
+  }
+  .dka-bio-quote::before,
+  .dka-bio-quote::after {
+    width: 36px;
+  }
+  .dka-bio-quote::before { margin-bottom: 8px; }
+  .dka-bio-quote::after { margin-top: 8px; }
+
+  /* Signature footer — compact */
+  .dka-bio-page .dka-bio-signature {
+    padding: 18px 12px !important;
+    gap: 14px !important;
+  }
+  .dka-bio-signature-name .dka-script {
+    font-size: clamp(1.9rem, 7vw, 2.4rem);
+  }
+  .dka-bio-signature-name small {
+    font-size: 0.62rem;
+    letter-spacing: 0.18em;
+  }
+}
+
+@media (max-width: 380px) {
+  .dka-bio-hero-name { font-size: 1.7rem !important; }
+  .dka-bio-hero-portrait { width: clamp(140px, 46vw, 180px) !important; }
+  .dka-bio-manifesto { padding: 18px 14px !important; }
+  .dka-bio-manifesto-text { font-size: 0.95rem !important; }
+  .dka-bio-manifesto-text::first-letter { font-size: 2.2em; }
+  .dka-bio-chapter-title { font-size: 1.3rem !important; }
+}
+
+/* ============================================================
+   MOBILE ATELIER (page 30) REFINEMENTS
+   Strategy:
+     · Pillars 1-col → 2-col on mobile (denser, half the scroll)
+     · Smaller pillar icon + tighter padding
+     · Timeline year/title slimmer, paddings compact
+     · Studio mosaic: 2-col with shorter rows (saves 30% of scroll)
+     · Parallax band height capped + filters lightened
+     · Bottom CTAs stacked column
+   ============================================================ */
+@media (max-width: 767px) {
+  .tm-atelier-page .dka-atelier {
+    padding: 24px 14px !important;
+    gap: 24px !important;
+    border-radius: var(--dka-radius);
+  }
+
+  /* Section heads — tighter */
+  .tm-atelier-page .dka-section-head { gap: 8px; }
+  .tm-atelier-page .dka-section-title {
+    font-size: clamp(1.5rem, 6vw, 1.95rem) !important;
+    line-height: 1.1;
+  }
+  .tm-atelier-page .dka-section-lede {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  /* Pillars: 2 columns × 2 rows instead of 4 stacked */
+  .tm-atelier-page .dka-pillars {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 10px !important;
+  }
+  .tm-atelier-page .dka-pillar {
+    padding: 16px 14px !important;
+    gap: 8px;
+    border-radius: var(--dka-radius);
+  }
+  .tm-atelier-page .dka-pillar-icon {
+    width: 38px;
+    height: 38px;
+  }
+  .tm-atelier-page .dka-pillar-icon svg {
+    width: 19px;
+    height: 19px;
+  }
+  .tm-atelier-page .dka-pillar h3 {
+    font-size: 1rem;
+    line-height: 1.18;
+  }
+  .tm-atelier-page .dka-pillar p {
+    font-size: 0.82rem;
+    line-height: 1.45;
+  }
+  /* Drop the hover flourish on touch */
+  .tm-atelier-page .dka-pillar::before { display: none !important; }
+
+  /* Timeline — slimmer rail + compact items */
+  .tm-atelier-page .dka-timeline {
+    padding: 10px 6px;
+  }
+  .tm-atelier-page .dka-timeline-item {
+    padding: 12px 10px 12px 36px !important;
+  }
+  .tm-atelier-page .dka-timeline-item::before {
+    width: 10px !important;
+    height: 10px !important;
+    box-shadow: 0 0 0 4px var(--dka-accent-soft);
+    top: 18px;
+  }
+  .tm-atelier-page .dka-timeline-year {
+    font-size: 1.2rem;
+  }
+  .tm-atelier-page .dka-timeline-title {
+    font-size: 1rem;
+    margin: 2px 0 4px;
+  }
+  .tm-atelier-page .dka-timeline-text {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  /* Studio mosaic — halve the row height to compress the long visual stack */
+  .tm-atelier-page .dka-studio-mosaic {
+    grid-auto-rows: 96px !important;
+    gap: 8px !important;
+  }
+  .tm-atelier-page .dka-studio-mosaic figcaption {
+    /* Always visible on touch (hover doesn't fire) */
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    font-size: 0.6rem !important;
+    padding: 6px 9px !important;
+    letter-spacing: 0.12em !important;
+    background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.78) 100%);
+  }
+
+  /* Parallax band — shorter, lighter visuals on mobile */
+  .tm-atelier-page .dka-parallax-band {
+    height: clamp(260px, 48vh, 380px) !important;
+    border-radius: var(--dka-radius);
+  }
+  .tm-atelier-page .dka-parallax-bg {
+    transform: none !important;
+    filter: saturate(0.9) brightness(0.65);
+  }
+  .tm-atelier-page .dka-parallax-content {
+    padding: 22px 18px !important;
+    gap: 12px;
+  }
+  .tm-atelier-page .dka-parallax-mark {
+    font-size: 2.4rem;
+  }
+  .tm-atelier-page .dka-parallax-quote p {
+    font-size: clamp(1.1rem, 4.4vw, 1.4rem) !important;
+    line-height: 1.3;
+  }
+
+  /* Rhythm widget — smaller clock, gap tightened */
+  .tm-atelier-page .dka-rhythm {
+    padding: 20px 14px !important;
+    gap: 14px !important;
+  }
+  .tm-atelier-page .dka-rhythm-clock {
+    width: 110px !important;
+    height: 110px !important;
+  }
+  .tm-atelier-page .dka-rhythm-status {
+    font-size: 1rem !important;
+    line-height: 1.45;
+  }
+  .tm-atelier-page .dka-rhythm-time {
+    font-size: 0.66rem !important;
+    letter-spacing: 0.22em !important;
+  }
+
+  /* Bottom CTA row — stacked, full-width, fine pills */
+  .tm-atelier-page .dka-atelier > .text-center {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 14px !important;
+  }
+  .tm-atelier-page .dka-atelier > .text-center .btn {
+    width: 100%;
+    padding: 9px 18px !important;
+    font-size: 0.74rem !important;
+  }
+
+  /* Dividers — subtle, smaller */
+  .tm-atelier-page .dka-divider { margin: 4px 0; }
+  .tm-atelier-page .dka-divider span { font-size: 1.2rem; }
+}
+
+@media (max-width: 380px) {
+  .tm-atelier-page .dka-atelier {
+    padding: 18px 10px !important;
+    gap: 18px !important;
+  }
+  .tm-atelier-page .dka-pillars { gap: 8px !important; }
+  .tm-atelier-page .dka-pillar { padding: 12px 10px !important; }
+  .tm-atelier-page .dka-pillar h3 { font-size: 0.92rem; }
+  .tm-atelier-page .dka-pillar p { font-size: 0.78rem; }
+  .tm-atelier-page .dka-studio-mosaic { grid-auto-rows: 78px !important; }
+  .tm-atelier-page .dka-rhythm-clock {
+    width: 96px !important;
+    height: 96px !important;
+  }
+}
+
+/* ============================================================
+   MOBILE ARTICLES (pages 6-9) REFINEMENTS
+   Strategy:
+     · Tighter body/callout/quote paddings
+     · Smaller sidebar swatches & headings
+     · Full-width stacked pagination
+     · Compact hero (text + media)
+   ============================================================ */
+@media (max-width: 767px) {
+  .tm-article-page { padding-left: 12px !important; padding-right: 12px !important; }
+  .tm-article-shell { gap: 18px !important; }
+
+  /* Hero — tighter, less air */
+  .tm-article-page .tm-article-hero {
+    min-height: 0 !important;
+    border-radius: var(--dka-radius);
+  }
+  .tm-article-page .tm-article-hero-text {
+    padding: 22px 18px !important;
+    max-width: 100% !important;
+  }
+  .tm-article-page .tm-article-hero-text h2 {
+    font-size: clamp(1.45rem, 6vw, 1.85rem) !important;
+    line-height: 1.15;
+    margin-bottom: 10px !important;
+  }
+  .tm-article-page .tm-article-tag {
+    padding: 4px 12px !important;
+    font-size: 0.62rem !important;
+    letter-spacing: 0.18em !important;
+    margin-bottom: 10px !important;
+  }
+  .tm-article-page .tm-article-meta {
+    margin-top: 14px !important;
+    font-size: 0.72rem;
+  }
+  .tm-article-page .tm-article-meta span {
+    font-size: 0.72rem !important;
+    letter-spacing: 0.06em !important;
+    margin-right: 6px !important;
+  }
+  .tm-article-page .tm-article-hero-media {
+    min-height: 180px !important;
+    aspect-ratio: 16 / 10;
+  }
+
+  /* Body — slim padding, reading-friendly */
+  .tm-article-page .tm-article-body {
+    padding: 18px 16px !important;
+    border-radius: var(--dka-radius);
+  }
+  .tm-article-page .tm-article-lede {
+    font-size: 1.02rem !important;
+    line-height: 1.55;
+    letter-spacing: 0;
+  }
+  .tm-article-page .tm-article-body p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+  .tm-article-page .tm-article-body h3 {
+    font-size: 1.05rem !important;
+    margin-top: 18px !important;
+  }
+
+  /* Callout — compact, fine accent border */
+  .tm-article-page .tm-article-callout {
+    margin: 18px 0 !important;
+    padding: 14px 16px !important;
+    border-radius: var(--dka-radius);
+  }
+  .tm-article-page .tm-article-callout h3 {
+    font-size: 0.78rem !important;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    margin-bottom: 10px !important;
+  }
+  .tm-article-page .tm-article-list li {
+    font-size: 0.9rem;
+    padding-left: 16px;
+    margin-bottom: 6px;
+    line-height: 1.55;
+  }
+  .tm-article-page .tm-article-list li::before {
+    width: 6px;
+    height: 6px;
+    top: 9px;
+  }
+
+  /* Quote — fine left rail, italic ease */
+  .tm-article-page .tm-article-quote {
+    margin: 22px 0 !important;
+    padding-left: 14px !important;
+    border-left-width: 2px !important;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  /* Sidebar — slimmer card, smaller swatches */
+  .tm-article-page .tm-article-sidebar {
+    padding: 16px 14px !important;
+    border-radius: var(--dka-radius);
+    margin-top: 18px;
+  }
+  .tm-article-page .tm-article-sidebar h3,
+  .tm-article-page .tm-article-sidebar h4 {
+    font-size: 0.72rem !important;
+    letter-spacing: 0.16em;
+  }
+  .tm-article-page .tm-article-swatches { gap: 6px !important; margin-bottom: 14px !important; }
+  .tm-article-page .tm-article-swatches .swatch {
+    width: 22px !important;
+    height: 22px !important;
+  }
+
+  /* Pagination — stacked, full-width */
+  .tm-article-page .tm-article-pagination {
+    flex-direction: column !important;
+    gap: 8px !important;
+    margin-top: 22px !important;
+    align-items: stretch !important;
+  }
+  .tm-article-page .tm-article-nav {
+    width: 100%;
+    text-align: center;
+    padding: 10px 14px !important;
+    font-size: 0.72rem !important;
+    letter-spacing: 0.1em !important;
+    min-height: 0 !important;
+    border-radius: 999px;
+  }
+}
+
+@media (max-width: 380px) {
+  .tm-article-page .tm-article-body { padding: 14px 12px !important; }
+  .tm-article-page .tm-article-hero-text { padding: 18px 14px !important; }
+  .tm-article-page .tm-article-hero-text h2 { font-size: 1.35rem !important; }
+  .tm-article-page .tm-article-lede { font-size: 0.95rem !important; }
+  .tm-article-page .tm-article-callout { padding: 12px 14px !important; }
+}
+
+/* ============================================================
+   MOBILE DIARY (page 31) REFINEMENTS
+   Strategy:
+     · Slim filter chips so they fit in 1-2 rows max
+     · Compact card body & date
+     · Smaller text for narrower column
+   ============================================================ */
+@media (max-width: 767px) {
+  .dka-diary-page > div {
+    gap: 18px !important;
+    padding: 4px 0 18px !important;
+  }
+  .dka-diary-page .dka-section-head { gap: 6px; }
+  .dka-diary-page .dka-section-title {
+    font-size: clamp(1.5rem, 6vw, 1.95rem) !important;
+    line-height: 1.1;
+  }
+  .dka-diary-page .dka-section-lede {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  /* Filters — slim chips */
+  .dka-diary-filters {
+    gap: 5px !important;
+    justify-content: flex-start;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 4px;
+    margin: 0 -12px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .dka-diary-filters::-webkit-scrollbar { display: none; }
+  .dka-diary-filter {
+    min-height: 0 !important;
+    padding: 5px 11px !important;
+    font-size: 0.66rem !important;
+    letter-spacing: 0.1em !important;
+    flex-shrink: 0;
+  }
+
+  /* Timeline — narrower rail offset */
+  .dka-diary-timeline {
+    gap: 18px !important;
+  }
+  .dka-diary-timeline::before {
+    left: 10px !important;
+  }
+  .dka-diary-entry {
+    padding-left: 32px !important;
+  }
+  .dka-diary-marker {
+    left: 4px !important;
+    width: 12px !important;
+    height: 12px !important;
+    box-shadow: 0 0 0 4px rgba(217, 153, 89, 0.12);
+    top: 18px;
+  }
+
+  /* Card — compact body, slimmer date + tags */
+  .dka-diary-card-body {
+    padding: 14px 14px 16px !important;
+    gap: 8px;
+  }
+  .dka-diary-date {
+    font-size: 0.6rem !important;
+    letter-spacing: 0.16em !important;
+  }
+  .dka-diary-text {
+    font-size: 0.95rem !important;
+    line-height: 1.55;
+  }
+  .dka-diary-tag {
+    font-size: 0.56rem !important;
+    padding: 2px 8px !important;
+    letter-spacing: 0.12em !important;
+  }
+  .dka-diary-card-media {
+    aspect-ratio: 16 / 11;
+  }
+}
+
+@media (max-width: 380px) {
+  .dka-diary-card-body { padding: 12px !important; }
+  .dka-diary-text { font-size: 0.9rem !important; }
+}
+
+/* ============================================================
+   MOBILE FINITIONS — Journal (page 4) + Contact (page 5)
+   Strategy:
+     · Wrap card meta separators properly (allow line break before sep)
+     · Tighter card body padding on tiny phones
+     · Lock contact field labels against textarea overlap
+     · Slim journal featured card excerpt + tag positioning
+   ============================================================ */
+@media (max-width: 767px) {
+  /* Journal — featured card */
+  .dka-journal-page { padding-left: 12px !important; padding-right: 12px !important; }
+  .dka-journal-featured-body {
+    padding: 18px 16px 20px !important;
+    gap: 8px !important;
+  }
+  .dka-journal-featured-title {
+    font-size: clamp(1.35rem, 6vw, 1.65rem) !important;
+    line-height: 1.18;
+  }
+  .dka-journal-featured-excerpt {
+    font-size: 0.9rem !important;
+    line-height: 1.55;
+  }
+  .dka-journal-featured-tag {
+    top: 10px;
+    left: 10px;
+    font-size: 0.56rem !important;
+    padding: 4px 8px !important;
+    letter-spacing: 0.14em !important;
+  }
+  .dka-journal-featured-cta {
+    font-size: 0.7rem !important;
+    letter-spacing: 0.14em !important;
+  }
+
+  /* Magazine cards — tighter chrome */
+  .dka-journal-grid { row-gap: 12px !important; }
+  .dka-journal-card-body {
+    padding: 14px 14px 16px !important;
+    gap: 6px !important;
+  }
+  .dka-journal-card-title {
+    font-size: 1.1rem !important;
+    line-height: 1.22;
+  }
+  .dka-journal-card-excerpt {
+    font-size: 0.86rem !important;
+    line-height: 1.55;
+  }
+  /* Card meta line: allow wrap, hide separators on a wrapped line */
+  .dka-journal-card-meta {
+    font-size: 0.6rem !important;
+    letter-spacing: 0.12em !important;
+    gap: 4px !important;
+    line-height: 1.4;
+  }
+  .dka-journal-postscript {
+    margin: 12px auto 18px !important;
+    padding: 18px 16px !important;
+  }
+  .dka-journal-postscript-text {
+    font-size: 0.95rem !important;
+    line-height: 1.55;
+  }
+
+  /* Contact — fields & channels */
+  .dka-contact-page { padding-left: 12px !important; padding-right: 12px !important; }
+  .dka-contact-form-wrap {
+    padding: 18px 14px 20px !important;
+    border-radius: var(--dka-radius);
+  }
+  .dka-contact-form-title {
+    font-size: 1.4rem !important;
+    margin-bottom: 12px !important;
+  }
+  .dka-contact-form { gap: 12px !important; }
+  /* Floating label background needs to match the card so it doesn't
+     punch through the textarea on focus */
+  .dka-field-input:focus ~ .dka-field-label,
+  .dka-field-input:not(:placeholder-shown) ~ .dka-field-label,
+  .dka-field-label--static {
+    background: linear-gradient(180deg, rgba(60, 50, 40, 1) 50%, rgba(60, 50, 40, 1) 50%);
+    padding: 0 6px;
+  }
+  .dka-field-input {
+    padding: 14px 12px 8px !important;
+    font-size: 0.92rem;
+  }
+  .dka-field-textarea {
+    min-height: 110px;
+  }
+  .dka-contact-actions {
+    margin-top: 4px !important;
+  }
+
+  /* Channels card */
+  .dka-contact-channels {
+    padding: 18px 14px 20px !important;
+    border-radius: var(--dka-radius);
+  }
+  .dka-contact-channels-title {
+    font-size: 1.3rem !important;
+    margin-bottom: 12px !important;
+  }
+  .dka-contact-channel { gap: 10px !important; padding: 8px 2px; }
+  .dka-contact-channel + .dka-contact-channel {
+    padding-top: 14px;
+  }
+  .dka-contact-channel-icon {
+    width: 32px;
+    height: 32px;
+  }
+  .dka-contact-channel-icon svg { width: 15px; height: 15px; }
+  .dka-contact-channel-value {
+    font-size: 0.95rem !important;
+    line-height: 1.4;
+  }
+  .dka-contact-channel-meta {
+    font-size: 0.74rem !important;
+  }
+
+  /* Map */
+  .dka-contact-map { margin: 6px 0 20px !important; }
+  .dka-contact-map-frame {
+    aspect-ratio: 4 / 3 !important;
+    border-radius: var(--dka-radius);
+  }
+  .dka-contact-map-title {
+    font-size: clamp(1.4rem, 5.5vw, 1.7rem) !important;
+  }
+  .dka-contact-map-lede {
+    font-size: 0.92rem !important;
+    line-height: 1.5;
+  }
+
+  /* FAQ */
+  .dka-contact-faq { margin: 14px auto 18px !important; }
+  .dka-contact-faq-title {
+    font-size: 1.3rem !important;
+    margin-bottom: 12px !important;
+  }
+  .dka-contact-faq-item details {
+    padding: 12px 14px !important;
+  }
+  .dka-contact-faq-item summary {
+    font-size: 0.98rem !important;
+    line-height: 1.3;
+  }
+  .dka-contact-faq-item details p {
+    font-size: 0.86rem !important;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 380px) {
+  .dka-journal-featured-body { padding: 14px 12px 16px !important; }
+  .dka-journal-card-body { padding: 12px !important; }
+  .dka-contact-form-wrap,
+  .dka-contact-channels { padding: 14px 12px !important; }
+  .dka-field-input { font-size: 0.88rem; }
+  .dka-contact-faq-item summary { font-size: 0.92rem !important; }
+}
+
+/* ============================================================
+   PHASE P4 — PAINT-COST REDUCTION (mobile)
+   Strategy:
+     · Replace backdrop-filter blur with opaque rgba on small screens
+       (a 14px blur on the bottombar costs ~6-10ms per scroll frame on
+       low-end ARM GPUs; rgba is essentially free).
+     · Reduce body::before stacked gradients from 3 layers to 1.
+     · Mark expensive elements as paint-isolated via `contain` so
+       repaints don't propagate.
+   ============================================================ */
+@media (max-width: 767px) {
+  /* Strip blurs — keep slightly more-opaque backgrounds for readability */
+  .tm-bg-dark,
+  .dka-home-arrow,
+  .dka-bottombar,
+  .dka-theme-menu,
+  .dka-floating-btn,
+  .dka-quickview-overlay,
+  .dka-quickview,
+  .dka-search-overlay,
+  .dka-lightbox,
+  .dka-journal-featured-tag {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+  }
+  /* Bump opacity slightly so the stripped blur doesn't reveal too much */
+  .dka-bottombar { background: rgba(20, 16, 12, 0.94) !important; }
+  .dka-home-arrow { background: rgba(20, 16, 12, 0.85) !important; }
+  .dka-theme-menu { background: rgba(58, 52, 44, 0.96) !important; }
+  .dka-journal-featured-tag { background: rgba(20, 17, 14, 0.88) !important; }
+
+  /* body::before — collapse 3 stacked gradients into 1 simple radial */
+  body::before {
+    background:
+      radial-gradient(120% 75% at 50% 0%, rgba(217, 153, 89, 0.16), transparent 65%),
+      linear-gradient(180deg, rgba(20, 16, 12, 0.55), rgba(20, 16, 12, 0.85)) !important;
+  }
+
+  /* Bottombar — paint-isolate so its scroll-position changes don't
+     repaint the page below it (huge win on long pages) */
+  .dka-bottombar { contain: layout paint style; }
+
+  /* Floating action group — paint-isolate */
+  .dka-floating { contain: layout paint style; }
+}
+
+/* ============================================================
+   PHASE P4 — will-change discipline
+   `will-change` lifts an element to its own compositor layer.
+   Permanent will-change = permanent GPU memory cost.
+   We scope each one to its actively-animating state.
+   ============================================================ */
+
+/* Home slider images: only the active slide's images need GPU promotion
+   (during ken-burns + transition); siblings stay flat. */
+.dka-home-slide img { will-change: auto; }
+.dka-home-slide.is-active img,
+.dka-home-slider.is-going-next .dka-home-slide.is-active img,
+.dka-home-slider.is-going-prev .dka-home-slide.is-active img {
+  will-change: transform;
+}
+
+/* Mobile sidebar: only promoted while the drawer is open
+   (translateX animation). Closed = back to flat layer. */
+@media (max-width: 991px) {
+  .navbar-collapse { will-change: auto; }
+  .navbar-collapse.show,
+  .navbar-collapse.collapsing { will-change: transform; }
 }
