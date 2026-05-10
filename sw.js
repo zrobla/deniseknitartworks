@@ -7,7 +7,7 @@
     · Cache-first for static assets (CSS/JS/fonts)
     · Bounded runtime image cache (LRU-ish via FIFO trim)
 */
-const VERSION = 'dka-v69';
+const VERSION = 'dka-v71';
 const STATIC_CACHE = `${VERSION}-static`;
 const PAGES_CACHE = `${VERSION}-pages`;
 const IMAGES_CACHE = `${VERSION}-images`;

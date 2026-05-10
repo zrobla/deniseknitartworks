@@ -17,7 +17,7 @@
   // -----------------------------------------------------------
   var supplement = {
     en: {
-      nav_atelier: 'Craft',
+      nav_atelier: 'Workshop',
       brand_kicker: 'tricot de Glaris',
       nav_drawer_eyebrow: 'Sections',
       nav_drawer_footnote: 'Hand-knit with care · Glarus, Switzerland',
@@ -216,7 +216,7 @@
       breadcrumb_gallery: 'Gallery',
       breadcrumb_blog: 'Journal',
       breadcrumb_contact: 'Contact',
-      breadcrumb_atelier: 'Craft',
+      breadcrumb_atelier: 'Workshop',
       // Journal 2.0
       journal_hero_eyebrow: 'Notes from Glarus',
       journal_hero_title_main: 'Letters from',
@@ -304,7 +304,7 @@
       lightbox_caption_default: 'Hand-knit by Denise Gillioz, Glarus.',
       bottombar_home: 'Home',
       bottombar_gallery: 'Gallery',
-      bottombar_atelier: 'Craft',
+      bottombar_atelier: 'Workshop',
       bottombar_blog: 'Journal',
       bottombar_contact: 'Contact',
       theme_label: 'Soft light',
@@ -317,7 +317,7 @@
     fr: {
       nav_home: 'Accueil',
       nav_gallery: 'Galerie',
-      nav_atelier: 'Métier',
+      nav_atelier: 'Atelier',
       nav_about: 'À propos',
       nav_blog: 'Journal',
       nav_contact: 'Contact',
@@ -519,7 +519,7 @@
       breadcrumb_gallery: 'Galerie',
       breadcrumb_blog: 'Journal',
       breadcrumb_contact: 'Contact',
-      breadcrumb_atelier: 'Métier',
+      breadcrumb_atelier: 'Atelier',
       // Journal 2.0
       journal_hero_eyebrow: 'Notes du tricot glaronnais',
       journal_hero_title_main: 'Lettres depuis',
@@ -607,7 +607,7 @@
       lightbox_caption_default: 'Tricoté main par Denise Gillioz, Glaris.',
       bottombar_home: 'Accueil',
       bottombar_gallery: 'Galerie',
-      bottombar_atelier: 'Craft',
+      bottombar_atelier: 'Atelier',
       bottombar_blog: 'Journal',
       bottombar_contact: 'Contact',
       theme_label: 'Lumière douce',
@@ -618,7 +618,7 @@
       back_to_top: 'Haut de page'
     },
     de: {
-      nav_atelier: 'Handwerk',
+      nav_atelier: 'Werkstatt',
       brand_kicker: 'tricot de Glaris',
       nav_drawer_eyebrow: 'Bereiche',
       nav_drawer_footnote: 'Mit Sorgfalt gestrickt · Glarus, Schweiz',
@@ -817,7 +817,7 @@
       breadcrumb_gallery: 'Galerie',
       breadcrumb_blog: 'Journal',
       breadcrumb_contact: 'Kontakt',
-      breadcrumb_atelier: 'Handwerk',
+      breadcrumb_atelier: 'Werkstatt',
       // Journal 2.0
       journal_hero_eyebrow: 'Notizen aus Glarus',
       journal_hero_title_main: 'Briefe aus',
@@ -905,7 +905,7 @@
       lightbox_caption_default: 'Handgestrickt von Denise Gillioz, Glarus.',
       bottombar_home: 'Start',
       bottombar_gallery: 'Galerie',
-      bottombar_atelier: 'Craft',
+      bottombar_atelier: 'Werkstatt',
       bottombar_blog: 'Journal',
       bottombar_contact: 'Kontakt',
       theme_label: 'weiches Licht',
